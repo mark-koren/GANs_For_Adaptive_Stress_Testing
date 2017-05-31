@@ -9,7 +9,6 @@ policy = GaussianMLPPolicy(env_spec=env.spec)
 baseline = LinearFeatureBaseline(env_spec=env.spec)
 algo = TRPO(
     env=env,
-    policy=policy,
-    baseline=baseline
+    policy=policy
 )
 algo.train()
