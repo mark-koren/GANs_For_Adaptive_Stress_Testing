@@ -42,7 +42,7 @@ class CrosswalkEnv(Env):
                 reward = 0
             else:
                 done = True
-                reward = -1000-100*np.sqrt(x_d_new^2 + y_d_new^2)
+                reward = -1000-100*np.sqrt(x_d_new**2 + y_d_new**2)
         else:
             done = False
             reward = -np.log(1 + self.mahalanobis_d(action))
