@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e67a64-f2a1-4e3e-9711-56de630e0934" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crosswalk.py" afterPath="$PROJECT_DIR$/crosswalk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rllab/envs/crosswalk_env.py" afterPath="$PROJECT_DIR$/rllab/envs/crosswalk_env.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crosswalk_env.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="crosswalk_env.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rllab/envs/crosswalk_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="595">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -96,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crosswalk.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crosswalk.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crosswalk.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -174,8 +174,8 @@
         <option value="$PROJECT_DIR$/GAIL.py" />
         <option value="$PROJECT_DIR$/Simple_GAIL.py" />
         <option value="$PROJECT_DIR$/run_GAIL.py" />
-        <option value="$PROJECT_DIR$/rllab/envs/crosswalk_env.py" />
         <option value="$PROJECT_DIR$/crosswalk.py" />
+        <option value="$PROJECT_DIR$/rllab/envs/crosswalk_env.py" />
       </list>
     </option>
   </component>
@@ -1032,16 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rllab/envs/crosswalk_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rllab/baselines/zero_baseline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1058,6 +1048,16 @@
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rllab/envs/crosswalk_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

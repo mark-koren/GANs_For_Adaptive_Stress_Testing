@@ -42,10 +42,10 @@ class CrosswalkEnv(Env):
                 reward = 0
             else:
                 done = True
-                reward = -np.inf
+                reward = -1000-100*np.sqrt(x_d_new^2 + y_d_new^2)
         else:
             done = False
-            reward = np.log(1 + self.mahalanobis_d(action))
+            reward = -np.log(1 + self.mahalanobis_d(action))
 
         self._state = np.array([v_new, x_c, y_c, x_p, y_p])
         observation = np.array([v_new, x_d_new, y_d_new])
