@@ -20,20 +20,21 @@ class CrosswalkEnv(Env):
         done : a boolean, indicating whether the episode has ended
         info : a dictionary containing other diagnostic information from the previous action
         """
-        x_p = self._state[3] + action[0]
-        y_p = self._state[4] + action[1]
-        x_d = x_p - self._state[1]
-        y_d = y_p - self._state[2]
+        v_old, x_c_old, y_c_old, x_p_old, y_p_old = self._state
+        x_p = x_p_old + action[0]
+        y_p = y_p_old + action[1]
+        x_d = x_p - x_c_old
+        y_d = y_p - y_c_old
         v_old = self._state[0]
         if (x_d >= 5.0) or (y_d/np.maximum(v_old, 1e-7) > 2.0):
             v_new = np.minimum(4.0, v_old + 1.0)
         else:
             v_new = np.maximum(0.0, v_old - 1.0)
 
-        y_c = self._state[2] + 0.5 * (v_old + v_new) * 5.0
-        x_c = self._state[1]
+        y_c = y_c_old + 0.5 * (v_old + v_new) * 5.0
+        x_c = x_c_old
 
-        y_d_new = self._state[5] - y_c
+        y_d_new = y_p - y_c
         x_d_new = x_d
         if y_d_new < 0.0:
             if x_d_new < 1.0:
