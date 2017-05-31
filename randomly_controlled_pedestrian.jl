@@ -327,7 +327,7 @@ end
 
 function resetDriveTracking(driveTracking)
   #println("driveTracking")
-  columnNames = ["DriveNum", "x", "y", "v", "d", "theta", "crash", "r"]
+  columnNames = ["DriveNum", "x", "y", "v", "xped", "yped", "crash", "r"]
   driveTracking = DataFrame(v1 = [0], v2 = [0], v3 = [0], v4 = [0], v5 = [0], v6=[0], v7=[0], v8=[0.0])
   names!(driveTracking.colindex, map(parse, columnNames))
   return driveTracking
