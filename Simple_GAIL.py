@@ -47,7 +47,8 @@ class GeneratorDistribution(object):
 
 def sample_policy(g, sample_size, state):
     dist = tf.contrib.distributions.MultivariateNormalDiag(mu = tf.slice(g, begin=[0,0], size=[-1,2]),
-                                                           diag_stdev = tf.exp(tf.slice(g, begin=[0,2], size=[-1,2])))
+                                                           diag_stdev = tf.clip_by_value(
+                                                               tf.exp(tf.slice(g, begin=[0,2], size=[-1,2])), 0.0, 1e15))
 
     return tf.concat([tf.reshape(dist.sample((sample_size)), (-1,2)),
                      state],
@@ -342,6 +343,15 @@ class GAN(object):
                     self.training: True
                 })
                 train_writer.add_summary(d_summary, step)
+                # update generator
+                z = self.gen.sample(self.batch_size)
+                z_expanded = np.repeat(z, self.sample_size, axis=0)
+                # z_eval = np.linspace(-self.gen.range, self.gen.range, 10000)
+                loss_g, _, g_value, g_summary = session.run([self.loss_g, self.opt_g, self.G, self.g_summary], {
+                    self.z: np.reshape(z, (self.batch_size, 3)),
+                    self.z_expanded: np.reshape(z_expanded, (self.batch_size * self.sample_size, 3)),
+                    self.training: True
+                })
                 # update generator
                 z = self.gen.sample(self.batch_size)
                 z_expanded = np.repeat(z, self.sample_size, axis=0)

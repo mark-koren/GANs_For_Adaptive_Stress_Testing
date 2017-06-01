@@ -3,14 +3,14 @@ import numpy as np
 
 
 num_steps = 4999
-batch_size = [1,4,16]
+batch_size = [1,4]
 minibatch = True
 log_every = 100
 image_every = 1000
 anim_path = None
 balance = 0.0
-writer_path = './GAIL/playground7'
-learning_rate = [600e-4, 60e-4, 6e-4]
+writer_path = './GAIL/playground8'
+learning_rate = [60e-4, 6e-4]
 sample_size = [10, 100]
 
 for l in learning_rate:

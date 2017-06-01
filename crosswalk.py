@@ -12,7 +12,7 @@ baseline = LinearFeatureBaseline(env_spec=env.spec)
 algo = TRPO(
     env=env,
     policy=policy,
-    baseline=ZeroBaseline(env.spec),
+    baseline=LinearFeatureBaseline(env_spec=env.spec),
     batch_size=4000,
     step_size=0.01,
     n_itr=500
