@@ -57,7 +57,7 @@ class CrosswalkEnv(Env):
         #bundle = G(self._state)
         #mean = G[0:2].T
         #cov = np.array([[G[2], 0],[0, G[3]])
-        mean = np.array([[0.0],[0.0]])
+        mean = np.array([[1.0],[0.0]])
         cov = np.array([[1.0, 0], [0, 1.0]])
         action_v = action.reshape((2,1))
 
@@ -74,7 +74,7 @@ class CrosswalkEnv(Env):
         -------
         observation : the initial observation of the space. (Initial reward is assumed to be 0.)
         """
-        self._state = np.array([4.0, 4.5, 0.0, 4.5, 50.0])
+        self._state = np.array([4.0, 4.5, 0.0, 6.5, 50.0])
         observation = np.array([self._state[0],
                                 self._state[3] - self._state[1],
                                 self._state[4] - self._state[2]])
