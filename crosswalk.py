@@ -15,6 +15,6 @@ algo = TRPO(
     baseline=ZeroBaseline(env.spec),
     batch_size=4000,
     step_size=0.01,
-    n_itr=1000
+    n_itr=500
 )
 algo.train()
