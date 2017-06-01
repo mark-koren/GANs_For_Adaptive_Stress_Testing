@@ -85,14 +85,14 @@ class CrosswalkEnv(Env):
         """
         Returns a Space object
         """
-        return Box(low=np.array([0.0,0.0]), high=np.array([5.0,2.0]))
+        return Box(low=np.array([-5.0,-2.0]), high=np.array([5.0,2.0]))
 
     @property
     def observation_space(self):
         """
         Returns a Space object
         """
-        return Box(low=np.array([0.0,0.0,0.0]), high=np.array([4.0, 9.0, 99.0]))
+        return Box(low=np.array([0.0,-9.0,0.0]), high=np.array([4.0, 9.0, 99.0]))
 
     def render(self):
         print(self._state)
