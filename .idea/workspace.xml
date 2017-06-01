@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48e67a64-f2a1-4e3e-9711-56de630e0934" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crosswalk.py" afterPath="$PROJECT_DIR$/crosswalk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rllab/envs/crosswalk_env.py" afterPath="$PROJECT_DIR$/rllab/envs/crosswalk_env.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="crosswalk.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crosswalk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -64,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/rllab/envs/crosswalk_env.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="379">
-              <caret line="74" column="96" lean-forward="true" selection-start-line="74" selection-start-column="96" selection-end-line="74" selection-end-column="96" />
+              <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -138,8 +139,8 @@
         <option value="$PROJECT_DIR$/GAIL.py" />
         <option value="$PROJECT_DIR$/Simple_GAIL.py" />
         <option value="$PROJECT_DIR$/run_GAIL.py" />
-        <option value="$PROJECT_DIR$/rllab/envs/crosswalk_env.py" />
         <option value="$PROJECT_DIR$/crosswalk.py" />
+        <option value="$PROJECT_DIR$/rllab/envs/crosswalk_env.py" />
       </list>
     </option>
   </component>
@@ -1020,16 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rllab/envs/crosswalk_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="74" column="96" lean-forward="true" selection-start-line="74" selection-start-column="96" selection-end-line="74" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rllab/core/network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2907">
@@ -1066,10 +1057,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rllab/envs/crosswalk_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crosswalk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
