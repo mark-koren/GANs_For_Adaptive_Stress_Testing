@@ -4,6 +4,38 @@ from rllab.baselines.zero_baseline import ZeroBaseline
 from rllab.envs.crosswalk_env import CrosswalkEnv
 from rllab.envs.normalized_env import normalize
 from rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
+import rllab.misc.logger as logger
+import os.path as osp
+import argparse
+
+parser = argparse.ArgumentParser()
+# Logger Params
+parser.add_argument('--exp_name', type=str, default='gail_exp')
+parser.add_argument('--tabular_log_file', type=str, default='tab.txt')
+parser.add_argument('--text_log_file', type=str, default='tex.txt')
+parser.add_argument('--params_log_file', type=str, default='args.txt')
+parser.add_argument('--snapshot_mode', type=str, default='all')
+parser.add_argument('--log_tabular_only', type=bool, default=False)
+parser.add_argument('--log_dir', type=str, default='./rl_logs/run1')
+# parser.add_argument('--args_data')
+
+args = parser.parse_args()
+
+log_dir = args.log_dir
+
+tabular_log_file = osp.join(log_dir, args.tabular_log_file)
+text_log_file = osp.join(log_dir, args.text_log_file)
+params_log_file = osp.join(log_dir, args.params_log_file)
+
+logger.log_parameters_lite(params_log_file, args)
+logger.add_text_output(text_log_file)
+logger.add_tabular_output(tabular_log_file)
+prev_snapshot_dir = logger.get_snapshot_dir()
+prev_mode = logger.get_snapshot_mode()
+logger.set_snapshot_dir(log_dir)
+logger.set_snapshot_mode(args.snapshot_mode)
+logger.set_log_tabular_only(args.log_tabular_only)
+logger.push_prefix("[%s] " % args.exp_name)
 
 env = normalize(CrosswalkEnv())
 policy = GaussianMLPPolicy(env_spec=env.spec,
@@ -15,6 +47,6 @@ algo = TRPO(
     baseline=LinearFeatureBaseline(env_spec=env.spec),
     batch_size=4000,
     step_size=0.1,
-    n_itr=5000
+    n_itr=500
 )
 algo.train()
