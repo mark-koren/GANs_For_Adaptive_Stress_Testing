@@ -37,12 +37,12 @@ class CrosswalkEnv(Env):
         y_d_new = y_p - y_c
         x_d_new = x_d
         if y_d_new < 0.0:
-            if x_d_new < 1.0:
+            if abs(x_d_new) < 1.0:
                 done = True
                 reward = 0
             else:
                 done = True
-                reward = -1000-100*np.sqrt(x_d_new**2 + y_d_new**2)
+                reward = -10000-100*np.sqrt(x_d_new**2 + y_d_new**2)
         else:
             done = False
             reward = -np.log(1 + self.mahalanobis_d(action))
