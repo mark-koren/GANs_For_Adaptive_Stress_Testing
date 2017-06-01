@@ -6,11 +6,13 @@ from rllab.envs.normalized_env import normalize
 from rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
 
 env = normalize(CrosswalkEnv())
-policy = GaussianMLPPolicy(env_spec=env.spec)
+policy = GaussianMLPPolicy(env_spec=env.spec,
+                           hidden_sizes=(256, 128, 64, 32))
 baseline = LinearFeatureBaseline(env_spec=env.spec)
 algo = TRPO(
     env=env,
     policy=policy,
-    baseline=ZeroBaseline(env.spec)
+    baseline=ZeroBaseline(env.spec),
+    batch_size=4000
 )
 algo.train()
