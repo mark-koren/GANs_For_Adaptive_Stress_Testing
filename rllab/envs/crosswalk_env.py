@@ -58,7 +58,7 @@ class CrosswalkEnv(Env):
         #mean = G[0:2].T
         #cov = np.array([[G[2], 0],[0, G[3]])
         mean = np.array([[1.0],[0.0]])
-        cov = np.array([[1.0, 0], [0, 1.0]])
+        cov = np.array([[10.0, 0], [0, 10.0]])
         action_v = action.reshape((2,1))
 
         dif = (action_v - mean)
