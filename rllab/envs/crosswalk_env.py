@@ -26,11 +26,11 @@ class CrosswalkEnv(Env):
         x_d = x_p - x_c_old
         y_d = y_p - y_c_old
         v_old = self._state[0]
-        # if (x_d >= 5.0) or (y_d/np.maximum(v_old, 1e-7) > 2.0):
-        #     v_new = np.minimum(4.0, v_old + 1.0)
-        # else:
-        #     v_new = np.maximum(0.0, v_old - 1.0)
-        v_new = 4.0
+        if (x_d >= 5.0) or (y_d/np.maximum(v_old, 1e-7) > 2.0):
+            v_new = np.minimum(4.0, v_old + 1.0)
+        else:
+            v_new = np.maximum(0.0, v_old - 1.0)
+        # v_new = 4.0
         y_c = y_c_old + 0.5 * (v_old + v_new) * 5.0
         x_c = x_c_old
 
