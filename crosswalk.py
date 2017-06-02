@@ -17,7 +17,7 @@ parser.add_argument('--text_log_file', type=str, default='tex.txt')
 parser.add_argument('--params_log_file', type=str, default='args.txt')
 parser.add_argument('--snapshot_mode', type=str, default='all')
 parser.add_argument('--log_tabular_only', type=bool, default=False)
-parser.add_argument('--log_dir', type=str, default='./rl_logs/run3')
+parser.add_argument('--log_dir', type=str, default='./rl_logs/run4')
 parser.add_argument('--args_data', type=str, default=None)
 
 args = parser.parse_args()
@@ -43,7 +43,7 @@ policy = GaussianMLPPolicy(env_spec=env.spec,
                            hidden_sizes=(512, 256, 128, 64, 32))
 baseline = LinearFeatureBaseline(env_spec=env.spec)
 
-iters = 10
+iters = 25
 algo = TRPO(
     env=env,
     policy=policy,
