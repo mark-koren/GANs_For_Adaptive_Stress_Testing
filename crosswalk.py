@@ -7,6 +7,7 @@ from rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
 import rllab.misc.logger as logger
 import os.path as osp
 import argparse
+from save_trials import *
 
 parser = argparse.ArgumentParser()
 # Logger Params
@@ -41,12 +42,17 @@ env = normalize(CrosswalkEnv())
 policy = GaussianMLPPolicy(env_spec=env.spec,
                            hidden_sizes=(512, 256, 128, 64, 32))
 baseline = LinearFeatureBaseline(env_spec=env.spec)
+
+iters = 10
 algo = TRPO(
     env=env,
     policy=policy,
     baseline=LinearFeatureBaseline(env_spec=env.spec),
     batch_size=4000,
     step_size=0.1,
-    n_itr=10
+    n_itr=iters
 )
 algo.train()
+
+header = 'iter, v, x_car, y_car, x_ped, y_ped, del_x, del_y, reward, v_new, x_car_new, y_car_new, x_ped_new, y_ped_new'
+save_trials(iters, args.log_dir, header)
