@@ -47,6 +47,6 @@ algo = TRPO(
     baseline=LinearFeatureBaseline(env_spec=env.spec),
     batch_size=4000,
     step_size=0.1,
-    n_itr=100
+    n_itr=10
 )
 algo.train()

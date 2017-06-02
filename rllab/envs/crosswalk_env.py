@@ -47,6 +47,8 @@ class CrosswalkEnv(Env):
             done = False
             reward = -np.log(1 + self.mahalanobis_d(action))
 
+        cache = (self._step, self._state, action, reward, np.array([v_new, x_c, y_c, x_p, y_p]))
+        self._cache_list.append(cache)
         self._state = np.array([v_new, x_c, y_c, x_p, y_p])
         observation = np.array([v_new, x_d_new, y_d_new])
         return Step(observation=observation, reward=reward, done=done)
@@ -74,6 +76,8 @@ class CrosswalkEnv(Env):
         -------
         observation : the initial observation of the space. (Initial reward is assumed to be 0.)
         """
+        self._cache_list = []
+        self._step = 0
         self._state = np.array([4.0, 4.5, 0.0, 6.5, 50.0])
         observation = np.array([self._state[0],
                                 self._state[3] - self._state[1],
@@ -96,3 +100,6 @@ class CrosswalkEnv(Env):
 
     def render(self):
         print(self._state)
+
+    def get_cache_list(self):
+        return self._cache_list
