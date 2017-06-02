@@ -13,6 +13,7 @@ def save_trials(iters, path, header):
         env = data['env']
         w_env = env.wrapped_env
         iter_array = np.array(w_env.get_cache_list())
+        iter_array[:, 0] = i
         out = np.concatenate((out, iter_array), axis=0)
 
     np.savetxt(fname=path+'/trials.csv',

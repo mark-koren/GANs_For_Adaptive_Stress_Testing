@@ -17,7 +17,7 @@ parser.add_argument('--text_log_file', type=str, default='tex.txt')
 parser.add_argument('--params_log_file', type=str, default='args.txt')
 parser.add_argument('--snapshot_mode', type=str, default='all')
 parser.add_argument('--log_tabular_only', type=bool, default=False)
-parser.add_argument('--log_dir', type=str, default='./rl_logs/run2')
+parser.add_argument('--log_dir', type=str, default='./rl_logs/run3')
 parser.add_argument('--args_data', type=str, default=None)
 
 args = parser.parse_args()
@@ -54,5 +54,5 @@ algo = TRPO(
 )
 algo.train()
 
-header = 'iter, v, x_car, y_car, x_ped, y_ped, del_x, del_y, reward, v_new, x_car_new, y_car_new, x_ped_new, y_ped_new'
+header = 'trial, step, v, x_car, y_car, x_ped, y_ped, del_x, del_y, reward, v_new, x_car_new, y_car_new, x_ped_new, y_ped_new'
 save_trials(iters, args.log_dir, header)
