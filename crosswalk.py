@@ -17,7 +17,7 @@ parser.add_argument('--params_log_file', type=str, default='args.txt')
 parser.add_argument('--snapshot_mode', type=str, default='all')
 parser.add_argument('--log_tabular_only', type=bool, default=False)
 parser.add_argument('--log_dir', type=str, default='./rl_logs/run1')
-# parser.add_argument('--args_data')
+parser.add_argument('--args_data', type=str, default=None)
 
 args = parser.parse_args()
 
@@ -47,6 +47,6 @@ algo = TRPO(
     baseline=LinearFeatureBaseline(env_spec=env.spec),
     batch_size=4000,
     step_size=0.1,
-    n_itr=500
+    n_itr=10
 )
 algo.train()
