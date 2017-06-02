@@ -10,13 +10,13 @@ import argparse
 
 parser = argparse.ArgumentParser()
 # Logger Params
-parser.add_argument('--exp_name', type=str, default='gail_exp')
+parser.add_argument('--exp_name', type=str, default='crosswalk_exp')
 parser.add_argument('--tabular_log_file', type=str, default='tab.txt')
 parser.add_argument('--text_log_file', type=str, default='tex.txt')
 parser.add_argument('--params_log_file', type=str, default='args.txt')
 parser.add_argument('--snapshot_mode', type=str, default='all')
 parser.add_argument('--log_tabular_only', type=bool, default=False)
-parser.add_argument('--log_dir', type=str, default='./rl_logs/run1')
+parser.add_argument('--log_dir', type=str, default='./rl_logs/run2')
 parser.add_argument('--args_data', type=str, default=None)
 
 args = parser.parse_args()
@@ -47,6 +47,6 @@ algo = TRPO(
     baseline=LinearFeatureBaseline(env_spec=env.spec),
     batch_size=4000,
     step_size=0.1,
-    n_itr=10
+    n_itr=100
 )
 algo.train()
