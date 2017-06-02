@@ -1,0 +1,10 @@
+{
+  "args_data": null,
+  "exp_name": "crosswalk_exp",
+  "log_dir": "./rl_logs/run2",
+  "log_tabular_only": false,
+  "params_log_file": "args.txt",
+  "snapshot_mode": "all",
+  "tabular_log_file": "tab.txt",
+  "text_log_file": "tex.txt"
+}
