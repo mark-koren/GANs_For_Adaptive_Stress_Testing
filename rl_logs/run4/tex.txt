@@ -1,0 +1,727 @@
+2017-06-02 02:28:35.230414 UTC | [crosswalk_exp] Populating workers...
+2017-06-02 02:28:35.230642 UTC | [crosswalk_exp] Populated
+2017-06-02 02:28:36.842520 UTC | [crosswalk_exp] itr #0 | fitting baseline...
+2017-06-02 02:28:36.873027 UTC | [crosswalk_exp] itr #0 | fitted
+2017-06-02 02:28:37.689510 UTC | [crosswalk_exp] itr #0 | computing loss before
+2017-06-02 02:28:37.804727 UTC | [crosswalk_exp] itr #0 | performing update
+2017-06-02 02:28:37.804991 UTC | [crosswalk_exp] itr #0 | computing descent direction
+2017-06-02 02:28:44.725512 UTC | [crosswalk_exp] itr #0 | descent direction computed
+2017-06-02 02:28:45.363689 UTC | [crosswalk_exp] itr #0 | backtrack iters: 1
+2017-06-02 02:28:45.363927 UTC | [crosswalk_exp] itr #0 | computing loss after
+2017-06-02 02:28:45.364015 UTC | [crosswalk_exp] itr #0 | optimization finished
+2017-06-02 02:28:45.640128 UTC | [crosswalk_exp] itr #0 | saving snapshot...
+2017-06-02 02:28:45.722331 UTC | [crosswalk_exp] itr #0 | saved
+2017-06-02 02:28:45.723321 UTC | -----------------------  ----------------
+2017-06-02 02:28:45.723454 UTC | Iteration                     0
+2017-06-02 02:28:45.723595 UTC | AverageDiscountedReturn   -9544.79
+2017-06-02 02:28:45.723685 UTC | AverageReturn             -9738.54
+2017-06-02 02:28:45.723761 UTC | ExplainedVariance             6.66134e-16
+2017-06-02 02:28:45.723868 UTC | NumTrajs                   1334
+2017-06-02 02:28:45.723942 UTC | Entropy                       2.83788
+2017-06-02 02:28:45.724016 UTC | Perplexity                   17.0795
+2017-06-02 02:28:45.724092 UTC | StdReturn                  3654.89
+2017-06-02 02:28:45.724162 UTC | MaxReturn                    -0.938895
+2017-06-02 02:28:45.724232 UTC | MinReturn                -11988.1
+2017-06-02 02:28:45.724302 UTC | AveragePolicyStd              1
+2017-06-02 02:28:45.724378 UTC | LossBefore                    2.8377e-16
+2017-06-02 02:28:45.724470 UTC | LossAfter                    -0.0489719
+2017-06-02 02:28:45.724581 UTC | MeanKLBefore                  0
+2017-06-02 02:28:45.724695 UTC | MeanKL                        0.0690123
+2017-06-02 02:28:45.724854 UTC | dLoss                         0.0489719
+2017-06-02 02:28:45.724970 UTC | -----------------------  ----------------
+2017-06-02 02:28:47.674964 UTC | [crosswalk_exp] itr #1 | fitting baseline...
+2017-06-02 02:28:47.730679 UTC | [crosswalk_exp] itr #1 | fitted
+2017-06-02 02:28:48.053136 UTC | [crosswalk_exp] itr #1 | computing loss before
+2017-06-02 02:28:48.198499 UTC | [crosswalk_exp] itr #1 | performing update
+2017-06-02 02:28:48.198778 UTC | [crosswalk_exp] itr #1 | computing descent direction
+2017-06-02 02:28:52.620181 UTC | [crosswalk_exp] itr #1 | descent direction computed
+2017-06-02 02:28:52.930395 UTC | [crosswalk_exp] itr #1 | backtrack iters: 1
+2017-06-02 02:28:52.930676 UTC | [crosswalk_exp] itr #1 | computing loss after
+2017-06-02 02:28:52.930805 UTC | [crosswalk_exp] itr #1 | optimization finished
+2017-06-02 02:28:53.225286 UTC | [crosswalk_exp] itr #1 | saving snapshot...
+2017-06-02 02:28:53.314369 UTC | [crosswalk_exp] itr #1 | saved
+2017-06-02 02:28:53.315715 UTC | -----------------------  ----------------
+2017-06-02 02:28:53.315871 UTC | Iteration                     1
+2017-06-02 02:28:53.316011 UTC | AverageDiscountedReturn   -9336
+2017-06-02 02:28:53.316129 UTC | AverageReturn             -9525.51
+2017-06-02 02:28:53.316263 UTC | ExplainedVariance             0.0115838
+2017-06-02 02:28:53.316384 UTC | NumTrajs                   1334
+2017-06-02 02:28:53.316465 UTC | Entropy                       2.80524
+2017-06-02 02:28:53.316612 UTC | Perplexity                   16.531
+2017-06-02 02:28:53.316768 UTC | StdReturn                  3926.17
+2017-06-02 02:28:53.316899 UTC | MaxReturn                    -1.19974
+2017-06-02 02:28:53.317048 UTC | MinReturn                -12338.4
+2017-06-02 02:28:53.317165 UTC | AveragePolicyStd              0.984087
+2017-06-02 02:28:53.317301 UTC | LossBefore                    2.52172e-17
+2017-06-02 02:28:53.317426 UTC | LossAfter                    -0.0153378
+2017-06-02 02:28:53.317555 UTC | MeanKLBefore                  0
+2017-06-02 02:28:53.317714 UTC | MeanKL                        0.0515765
+2017-06-02 02:28:53.317842 UTC | dLoss                         0.0153378
+2017-06-02 02:28:53.317981 UTC | -----------------------  ----------------
+2017-06-02 02:28:55.085245 UTC | [crosswalk_exp] itr #2 | fitting baseline...
+2017-06-02 02:28:55.114483 UTC | [crosswalk_exp] itr #2 | fitted
+2017-06-02 02:28:55.353690 UTC | [crosswalk_exp] itr #2 | computing loss before
+2017-06-02 02:28:55.468210 UTC | [crosswalk_exp] itr #2 | performing update
+2017-06-02 02:28:55.468459 UTC | [crosswalk_exp] itr #2 | computing descent direction
+2017-06-02 02:28:59.462531 UTC | [crosswalk_exp] itr #2 | descent direction computed
+2017-06-02 02:28:59.624791 UTC | [crosswalk_exp] itr #2 | backtrack iters: 0
+2017-06-02 02:28:59.625060 UTC | [crosswalk_exp] itr #2 | computing loss after
+2017-06-02 02:28:59.625194 UTC | [crosswalk_exp] itr #2 | optimization finished
+2017-06-02 02:28:59.955663 UTC | [crosswalk_exp] itr #2 | saving snapshot...
+2017-06-02 02:29:00.047573 UTC | [crosswalk_exp] itr #2 | saved
+2017-06-02 02:29:00.048517 UTC | -----------------------  ----------------
+2017-06-02 02:29:00.048646 UTC | Iteration                     2
+2017-06-02 02:29:00.048788 UTC | AverageDiscountedReturn   -9093.39
+2017-06-02 02:29:00.048894 UTC | AverageReturn             -9277.98
+2017-06-02 02:29:00.048971 UTC | ExplainedVariance             0.0189387
+2017-06-02 02:29:00.049089 UTC | NumTrajs                   1334
+2017-06-02 02:29:00.049216 UTC | Entropy                       2.73035
+2017-06-02 02:29:00.049369 UTC | Perplexity                   15.3383
+2017-06-02 02:29:00.049505 UTC | StdReturn                  4243.51
+2017-06-02 02:29:00.049622 UTC | MaxReturn                    -0.975286
+2017-06-02 02:29:00.049737 UTC | MinReturn                -12283.9
+2017-06-02 02:29:00.049923 UTC | AveragePolicyStd              0.949473
+2017-06-02 02:29:00.050048 UTC | LossBefore                    7.42784e-17
+2017-06-02 02:29:00.050162 UTC | LossAfter                    -0.0861175
+2017-06-02 02:29:00.050274 UTC | MeanKLBefore                  0
+2017-06-02 02:29:00.050386 UTC | MeanKL                        0.0643623
+2017-06-02 02:29:00.050510 UTC | dLoss                         0.0861175
+2017-06-02 02:29:00.050623 UTC | -----------------------  ----------------
+2017-06-02 02:29:02.186500 UTC | [crosswalk_exp] itr #3 | fitting baseline...
+2017-06-02 02:29:02.238298 UTC | [crosswalk_exp] itr #3 | fitted
+2017-06-02 02:29:02.654485 UTC | [crosswalk_exp] itr #3 | computing loss before
+2017-06-02 02:29:02.854152 UTC | [crosswalk_exp] itr #3 | performing update
+2017-06-02 02:29:02.854455 UTC | [crosswalk_exp] itr #3 | computing descent direction
+2017-06-02 02:29:08.388272 UTC | [crosswalk_exp] itr #3 | descent direction computed
+2017-06-02 02:29:08.783075 UTC | [crosswalk_exp] itr #3 | backtrack iters: 1
+2017-06-02 02:29:08.783361 UTC | [crosswalk_exp] itr #3 | computing loss after
+2017-06-02 02:29:08.783489 UTC | [crosswalk_exp] itr #3 | optimization finished
+2017-06-02 02:29:09.168322 UTC | [crosswalk_exp] itr #3 | saving snapshot...
+2017-06-02 02:29:09.258150 UTC | [crosswalk_exp] itr #3 | saved
+2017-06-02 02:29:09.259433 UTC | -----------------------  ----------------
+2017-06-02 02:29:09.259591 UTC | Iteration                     3
+2017-06-02 02:29:09.259701 UTC | AverageDiscountedReturn   -8473.65
+2017-06-02 02:29:09.259805 UTC | AverageReturn             -8645.65
+2017-06-02 02:29:09.259913 UTC | ExplainedVariance             0.00933492
+2017-06-02 02:29:09.260018 UTC | NumTrajs                   1334
+2017-06-02 02:29:09.260117 UTC | Entropy                       2.60769
+2017-06-02 02:29:09.260218 UTC | Perplexity                   13.5677
+2017-06-02 02:29:09.260322 UTC | StdReturn                  4663.17
+2017-06-02 02:29:09.260430 UTC | MaxReturn                    -1.03372
+2017-06-02 02:29:09.260536 UTC | MinReturn                -12240.7
+2017-06-02 02:29:09.260632 UTC | AveragePolicyStd              0.89687
+2017-06-02 02:29:09.260763 UTC | LossBefore                   -3.54262e-17
+2017-06-02 02:29:09.260889 UTC | LossAfter                    -0.0187811
+2017-06-02 02:29:09.261010 UTC | MeanKLBefore                  0
+2017-06-02 02:29:09.261112 UTC | MeanKL                        0.06434
+2017-06-02 02:29:09.261212 UTC | dLoss                         0.0187811
+2017-06-02 02:29:09.261316 UTC | -----------------------  ----------------
+2017-06-02 02:29:11.243397 UTC | [crosswalk_exp] itr #4 | fitting baseline...
+2017-06-02 02:29:11.293077 UTC | [crosswalk_exp] itr #4 | fitted
+2017-06-02 02:29:11.695747 UTC | [crosswalk_exp] itr #4 | computing loss before
+2017-06-02 02:29:11.881715 UTC | [crosswalk_exp] itr #4 | performing update
+2017-06-02 02:29:11.882014 UTC | [crosswalk_exp] itr #4 | computing descent direction
+2017-06-02 02:29:17.281188 UTC | [crosswalk_exp] itr #4 | descent direction computed
+2017-06-02 02:29:17.687315 UTC | [crosswalk_exp] itr #4 | backtrack iters: 1
+2017-06-02 02:29:17.687617 UTC | [crosswalk_exp] itr #4 | computing loss after
+2017-06-02 02:29:17.687738 UTC | [crosswalk_exp] itr #4 | optimization finished
+2017-06-02 02:29:18.073309 UTC | [crosswalk_exp] itr #4 | saving snapshot...
+2017-06-02 02:29:18.162678 UTC | [crosswalk_exp] itr #4 | saved
+2017-06-02 02:29:18.163996 UTC | -----------------------  ----------------
+2017-06-02 02:29:18.164141 UTC | Iteration                     4
+2017-06-02 02:29:18.164250 UTC | AverageDiscountedReturn   -8239.99
+2017-06-02 02:29:18.164357 UTC | AverageReturn             -8407.26
+2017-06-02 02:29:18.164455 UTC | ExplainedVariance             0.015508
+2017-06-02 02:29:18.164561 UTC | NumTrajs                   1334
+2017-06-02 02:29:18.164657 UTC | Entropy                       2.50737
+2017-06-02 02:29:18.164776 UTC | Perplexity                   12.2727
+2017-06-02 02:29:18.164881 UTC | StdReturn                  4768.37
+2017-06-02 02:29:18.164987 UTC | MaxReturn                    -1.16678
+2017-06-02 02:29:18.165086 UTC | MinReturn                -12230.5
+2017-06-02 02:29:18.165183 UTC | AveragePolicyStd              0.863559
+2017-06-02 02:29:18.165283 UTC | LossBefore                   -1.32605e-17
+2017-06-02 02:29:18.165380 UTC | LossAfter                    -0.0777475
+2017-06-02 02:29:18.165485 UTC | MeanKLBefore                  0
+2017-06-02 02:29:18.165584 UTC | MeanKL                        0.0962357
+2017-06-02 02:29:18.165681 UTC | dLoss                         0.0777475
+2017-06-02 02:29:18.165779 UTC | -----------------------  ----------------
+2017-06-02 02:29:20.135554 UTC | [crosswalk_exp] itr #5 | fitting baseline...
+2017-06-02 02:29:20.185537 UTC | [crosswalk_exp] itr #5 | fitted
+2017-06-02 02:29:20.592531 UTC | [crosswalk_exp] itr #5 | computing loss before
+2017-06-02 02:29:20.786981 UTC | [crosswalk_exp] itr #5 | performing update
+2017-06-02 02:29:20.787274 UTC | [crosswalk_exp] itr #5 | computing descent direction
+2017-06-02 02:29:26.196195 UTC | [crosswalk_exp] itr #5 | descent direction computed
+2017-06-02 02:29:26.788695 UTC | [crosswalk_exp] itr #5 | backtrack iters: 2
+2017-06-02 02:29:26.789019 UTC | [crosswalk_exp] itr #5 | computing loss after
+2017-06-02 02:29:26.789138 UTC | [crosswalk_exp] itr #5 | optimization finished
+2017-06-02 02:29:27.171253 UTC | [crosswalk_exp] itr #5 | saving snapshot...
+2017-06-02 02:29:27.259883 UTC | [crosswalk_exp] itr #5 | saved
+2017-06-02 02:29:27.261177 UTC | -----------------------  ----------------
+2017-06-02 02:29:27.261316 UTC | Iteration                     5
+2017-06-02 02:29:27.261428 UTC | AverageDiscountedReturn   -7427.6
+2017-06-02 02:29:27.261535 UTC | AverageReturn             -7578.38
+2017-06-02 02:29:27.261632 UTC | ExplainedVariance            -0.0006385
+2017-06-02 02:29:27.261738 UTC | NumTrajs                   1334
+2017-06-02 02:29:27.261830 UTC | Entropy                       2.36943
+2017-06-02 02:29:27.261921 UTC | Perplexity                   10.6913
+2017-06-02 02:29:27.262016 UTC | StdReturn                  5113.44
+2017-06-02 02:29:27.262110 UTC | MaxReturn                    -0.723661
+2017-06-02 02:29:27.262205 UTC | MinReturn                -12194.5
+2017-06-02 02:29:27.262308 UTC | AveragePolicyStd              0.814541
+2017-06-02 02:29:27.262428 UTC | LossBefore                   -1.97798e-17
+2017-06-02 02:29:27.262537 UTC | LossAfter                    -0.0235005
+2017-06-02 02:29:27.262630 UTC | MeanKLBefore                  0
+2017-06-02 02:29:27.262723 UTC | MeanKL                        0.0731641
+2017-06-02 02:29:27.262820 UTC | dLoss                         0.0235005
+2017-06-02 02:29:27.262913 UTC | -----------------------  ----------------
+2017-06-02 02:29:29.183444 UTC | [crosswalk_exp] itr #6 | fitting baseline...
+2017-06-02 02:29:29.221829 UTC | [crosswalk_exp] itr #6 | fitted
+2017-06-02 02:29:29.539421 UTC | [crosswalk_exp] itr #6 | computing loss before
+2017-06-02 02:29:29.690962 UTC | [crosswalk_exp] itr #6 | performing update
+2017-06-02 02:29:29.691237 UTC | [crosswalk_exp] itr #6 | computing descent direction
+2017-06-02 02:29:34.528156 UTC | [crosswalk_exp] itr #6 | descent direction computed
+2017-06-02 02:29:34.814276 UTC | [crosswalk_exp] itr #6 | backtrack iters: 1
+2017-06-02 02:29:34.814551 UTC | [crosswalk_exp] itr #6 | computing loss after
+2017-06-02 02:29:34.814650 UTC | [crosswalk_exp] itr #6 | optimization finished
+2017-06-02 02:29:35.103395 UTC | [crosswalk_exp] itr #6 | saving snapshot...
+2017-06-02 02:29:35.187117 UTC | [crosswalk_exp] itr #6 | saved
+2017-06-02 02:29:35.188492 UTC | -----------------------  ----------------
+2017-06-02 02:29:35.188669 UTC | Iteration                     6
+2017-06-02 02:29:35.188826 UTC | AverageDiscountedReturn   -7358.29
+2017-06-02 02:29:35.188942 UTC | AverageReturn             -7507.66
+2017-06-02 02:29:35.189062 UTC | ExplainedVariance            -0.00107294
+2017-06-02 02:29:35.189176 UTC | NumTrajs                   1334
+2017-06-02 02:29:35.189292 UTC | Entropy                       2.19481
+2017-06-02 02:29:35.189403 UTC | Perplexity                    8.97827
+2017-06-02 02:29:35.189521 UTC | StdReturn                  5127.08
+2017-06-02 02:29:35.189633 UTC | MaxReturn                    -0.865501
+2017-06-02 02:29:35.189742 UTC | MinReturn                -11718.7
+2017-06-02 02:29:35.189849 UTC | AveragePolicyStd              0.764086
+2017-06-02 02:29:35.189955 UTC | LossBefore                   -1.38709e-18
+2017-06-02 02:29:35.190064 UTC | LossAfter                    -0.0336385
+2017-06-02 02:29:35.190170 UTC | MeanKLBefore                  0
+2017-06-02 02:29:35.190281 UTC | MeanKL                        0.0689326
+2017-06-02 02:29:35.190388 UTC | dLoss                         0.0336385
+2017-06-02 02:29:35.190493 UTC | -----------------------  ----------------
+2017-06-02 02:29:36.829354 UTC | [crosswalk_exp] itr #7 | fitting baseline...
+2017-06-02 02:29:36.864088 UTC | [crosswalk_exp] itr #7 | fitted
+2017-06-02 02:29:37.156852 UTC | [crosswalk_exp] itr #7 | computing loss before
+2017-06-02 02:29:37.292873 UTC | [crosswalk_exp] itr #7 | performing update
+2017-06-02 02:29:37.293125 UTC | [crosswalk_exp] itr #7 | computing descent direction
+2017-06-02 02:29:42.020790 UTC | [crosswalk_exp] itr #7 | descent direction computed
+2017-06-02 02:29:42.305428 UTC | [crosswalk_exp] itr #7 | backtrack iters: 1
+2017-06-02 02:29:42.305683 UTC | [crosswalk_exp] itr #7 | computing loss after
+2017-06-02 02:29:42.305803 UTC | [crosswalk_exp] itr #7 | optimization finished
+2017-06-02 02:29:42.584417 UTC | [crosswalk_exp] itr #7 | saving snapshot...
+2017-06-02 02:29:42.655841 UTC | [crosswalk_exp] itr #7 | saved
+2017-06-02 02:29:42.656779 UTC | -----------------------  ---------------
+2017-06-02 02:29:42.656899 UTC | Iteration                     7
+2017-06-02 02:29:42.656986 UTC | AverageDiscountedReturn   -6728.27
+2017-06-02 02:29:42.657096 UTC | AverageReturn             -6864.85
+2017-06-02 02:29:42.657183 UTC | ExplainedVariance            -0.00206227
+2017-06-02 02:29:42.657269 UTC | NumTrajs                   1334
+2017-06-02 02:29:42.657346 UTC | Entropy                       2.0233
+2017-06-02 02:29:42.657470 UTC | Perplexity                    7.56323
+2017-06-02 02:29:42.657594 UTC | StdReturn                  5325.51
+2017-06-02 02:29:42.657689 UTC | MaxReturn                    -0.616837
+2017-06-02 02:29:42.657767 UTC | MinReturn                -11644
+2017-06-02 02:29:42.657840 UTC | AveragePolicyStd              0.716398
+2017-06-02 02:29:42.657911 UTC | LossBefore                   -1.6645e-17
+2017-06-02 02:29:42.657981 UTC | LossAfter                    -0.0192488
+2017-06-02 02:29:42.658051 UTC | MeanKLBefore                  0
+2017-06-02 02:29:42.658127 UTC | MeanKL                        0.0556483
+2017-06-02 02:29:42.658197 UTC | dLoss                         0.0192488
+2017-06-02 02:29:42.658267 UTC | -----------------------  ---------------
+2017-06-02 02:29:44.281261 UTC | [crosswalk_exp] itr #8 | fitting baseline...
+2017-06-02 02:29:44.323842 UTC | [crosswalk_exp] itr #8 | fitted
+2017-06-02 02:29:44.647309 UTC | [crosswalk_exp] itr #8 | computing loss before
+2017-06-02 02:29:44.786288 UTC | [crosswalk_exp] itr #8 | performing update
+2017-06-02 02:29:44.786543 UTC | [crosswalk_exp] itr #8 | computing descent direction
+2017-06-02 02:29:49.613917 UTC | [crosswalk_exp] itr #8 | descent direction computed
+2017-06-02 02:29:49.923542 UTC | [crosswalk_exp] itr #8 | backtrack iters: 1
+2017-06-02 02:29:49.923871 UTC | [crosswalk_exp] itr #8 | computing loss after
+2017-06-02 02:29:49.924004 UTC | [crosswalk_exp] itr #8 | optimization finished
+2017-06-02 02:29:50.244808 UTC | [crosswalk_exp] itr #8 | saving snapshot...
+2017-06-02 02:29:50.329149 UTC | [crosswalk_exp] itr #8 | saved
+2017-06-02 02:29:50.330174 UTC | -----------------------  ----------------
+2017-06-02 02:29:50.330338 UTC | Iteration                     8
+2017-06-02 02:29:50.330444 UTC | AverageDiscountedReturn   -6215.58
+2017-06-02 02:29:50.330527 UTC | AverageReturn             -6341.76
+2017-06-02 02:29:50.330607 UTC | ExplainedVariance             0.00258258
+2017-06-02 02:29:50.330709 UTC | NumTrajs                   1334
+2017-06-02 02:29:50.330802 UTC | Entropy                       1.84719
+2017-06-02 02:29:50.330883 UTC | Perplexity                    6.342
+2017-06-02 02:29:50.330964 UTC | StdReturn                  5428.74
+2017-06-02 02:29:50.331058 UTC | MaxReturn                    -0.412745
+2017-06-02 02:29:50.331153 UTC | MinReturn                -11632.1
+2017-06-02 02:29:50.331225 UTC | AveragePolicyStd              0.677337
+2017-06-02 02:29:50.331312 UTC | LossBefore                    7.01865e-18
+2017-06-02 02:29:50.331438 UTC | LossAfter                    -0.0529771
+2017-06-02 02:29:50.331535 UTC | MeanKLBefore                  0
+2017-06-02 02:29:50.331635 UTC | MeanKL                        0.0616182
+2017-06-02 02:29:50.331716 UTC | dLoss                         0.0529771
+2017-06-02 02:29:50.331792 UTC | -----------------------  ----------------
+2017-06-02 02:29:51.989820 UTC | [crosswalk_exp] itr #9 | fitting baseline...
+2017-06-02 02:29:52.032725 UTC | [crosswalk_exp] itr #9 | fitted
+2017-06-02 02:29:52.402593 UTC | [crosswalk_exp] itr #9 | computing loss before
+2017-06-02 02:29:52.596995 UTC | [crosswalk_exp] itr #9 | performing update
+2017-06-02 02:29:52.597290 UTC | [crosswalk_exp] itr #9 | computing descent direction
+2017-06-02 02:29:57.628879 UTC | [crosswalk_exp] itr #9 | descent direction computed
+2017-06-02 02:29:57.980977 UTC | [crosswalk_exp] itr #9 | backtrack iters: 1
+2017-06-02 02:29:57.981210 UTC | [crosswalk_exp] itr #9 | computing loss after
+2017-06-02 02:29:57.981313 UTC | [crosswalk_exp] itr #9 | optimization finished
+2017-06-02 02:29:58.274575 UTC | [crosswalk_exp] itr #9 | saving snapshot...
+2017-06-02 02:29:58.355620 UTC | [crosswalk_exp] itr #9 | saved
+2017-06-02 02:29:58.356963 UTC | -----------------------  ----------------
+2017-06-02 02:29:58.357118 UTC | Iteration                     9
+2017-06-02 02:29:58.357217 UTC | AverageDiscountedReturn   -5375.73
+2017-06-02 02:29:58.357318 UTC | AverageReturn             -5484.86
+2017-06-02 02:29:58.357395 UTC | ExplainedVariance            -0.000505119
+2017-06-02 02:29:58.357468 UTC | NumTrajs                   1334
+2017-06-02 02:29:58.357590 UTC | Entropy                       1.64762
+2017-06-02 02:29:58.357727 UTC | Perplexity                    5.19461
+2017-06-02 02:29:58.357860 UTC | StdReturn                  5477.19
+2017-06-02 02:29:58.357994 UTC | MaxReturn                    -0.433146
+2017-06-02 02:29:58.358077 UTC | MinReturn                -11620.2
+2017-06-02 02:29:58.358152 UTC | AveragePolicyStd              0.639456
+2017-06-02 02:29:58.358250 UTC | LossBefore                    1.91973e-17
+2017-06-02 02:29:58.358332 UTC | LossAfter                    -0.0680241
+2017-06-02 02:29:58.358416 UTC | MeanKLBefore                  0
+2017-06-02 02:29:58.358504 UTC | MeanKL                        0.0818203
+2017-06-02 02:29:58.358593 UTC | dLoss                         0.0680241
+2017-06-02 02:29:58.358665 UTC | -----------------------  ----------------
+2017-06-02 02:30:00.061096 UTC | [crosswalk_exp] itr #10 | fitting baseline...
+2017-06-02 02:30:00.101164 UTC | [crosswalk_exp] itr #10 | fitted
+2017-06-02 02:30:00.424027 UTC | [crosswalk_exp] itr #10 | computing loss before
+2017-06-02 02:30:00.577641 UTC | [crosswalk_exp] itr #10 | performing update
+2017-06-02 02:30:00.577954 UTC | [crosswalk_exp] itr #10 | computing descent direction
+2017-06-02 02:30:05.523021 UTC | [crosswalk_exp] itr #10 | descent direction computed
+2017-06-02 02:30:05.841006 UTC | [crosswalk_exp] itr #10 | backtrack iters: 1
+2017-06-02 02:30:05.841267 UTC | [crosswalk_exp] itr #10 | computing loss after
+2017-06-02 02:30:05.841367 UTC | [crosswalk_exp] itr #10 | optimization finished
+2017-06-02 02:30:06.129707 UTC | [crosswalk_exp] itr #10 | saving snapshot...
+2017-06-02 02:30:06.214024 UTC | [crosswalk_exp] itr #10 | saved
+2017-06-02 02:30:06.215102 UTC | -----------------------  ----------------
+2017-06-02 02:30:06.215221 UTC | Iteration                    10
+2017-06-02 02:30:06.215319 UTC | AverageDiscountedReturn   -4527.71
+2017-06-02 02:30:06.215420 UTC | AverageReturn             -4619.62
+2017-06-02 02:30:06.215515 UTC | ExplainedVariance            -0.000114366
+2017-06-02 02:30:06.215621 UTC | NumTrajs                   1334
+2017-06-02 02:30:06.215709 UTC | Entropy                       1.37507
+2017-06-02 02:30:06.215794 UTC | Perplexity                    3.95537
+2017-06-02 02:30:06.215882 UTC | StdReturn                  5414.67
+2017-06-02 02:30:06.215981 UTC | MaxReturn                    -0.51656
+2017-06-02 02:30:06.216078 UTC | MinReturn                -11611.2
+2017-06-02 02:30:06.216147 UTC | AveragePolicyStd              0.587962
+2017-06-02 02:30:06.216214 UTC | LossBefore                   -2.42185e-17
+2017-06-02 02:30:06.216280 UTC | LossAfter                    -0.0852815
+2017-06-02 02:30:06.216366 UTC | MeanKLBefore                  0
+2017-06-02 02:30:06.216436 UTC | MeanKL                        0.0812875
+2017-06-02 02:30:06.216557 UTC | dLoss                         0.0852815
+2017-06-02 02:30:06.216645 UTC | -----------------------  ----------------
+2017-06-02 02:30:07.935765 UTC | [crosswalk_exp] itr #11 | fitting baseline...
+2017-06-02 02:30:07.994247 UTC | [crosswalk_exp] itr #11 | fitted
+2017-06-02 02:30:08.400490 UTC | [crosswalk_exp] itr #11 | computing loss before
+2017-06-02 02:30:08.594660 UTC | [crosswalk_exp] itr #11 | performing update
+2017-06-02 02:30:08.594968 UTC | [crosswalk_exp] itr #11 | computing descent direction
+2017-06-02 02:30:13.536167 UTC | [crosswalk_exp] itr #11 | descent direction computed
+2017-06-02 02:30:13.866903 UTC | [crosswalk_exp] itr #11 | backtrack iters: 1
+2017-06-02 02:30:13.867202 UTC | [crosswalk_exp] itr #11 | computing loss after
+2017-06-02 02:30:13.867326 UTC | [crosswalk_exp] itr #11 | optimization finished
+2017-06-02 02:30:14.248209 UTC | [crosswalk_exp] itr #11 | saving snapshot...
+2017-06-02 02:30:14.340116 UTC | [crosswalk_exp] itr #11 | saved
+2017-06-02 02:30:14.341503 UTC | -----------------------  ----------------
+2017-06-02 02:30:14.341658 UTC | Iteration                    11
+2017-06-02 02:30:14.341774 UTC | AverageDiscountedReturn   -3392.43
+2017-06-02 02:30:14.341897 UTC | AverageReturn             -3461.28
+2017-06-02 02:30:14.342000 UTC | ExplainedVariance            -0.00198344
+2017-06-02 02:30:14.342112 UTC | NumTrajs                   1334
+2017-06-02 02:30:14.342211 UTC | Entropy                       1.13673
+2017-06-02 02:30:14.342306 UTC | Perplexity                    3.11657
+2017-06-02 02:30:14.342401 UTC | StdReturn                  5096.75
+2017-06-02 02:30:14.342518 UTC | MaxReturn                    -0.47512
+2017-06-02 02:30:14.342613 UTC | MinReturn                -11605.4
+2017-06-02 02:30:14.342708 UTC | AveragePolicyStd              0.560234
+2017-06-02 02:30:14.342803 UTC | LossBefore                   -5.40963e-17
+2017-06-02 02:30:14.342897 UTC | LossAfter                    -0.0752906
+2017-06-02 02:30:14.342994 UTC | MeanKLBefore                  0
+2017-06-02 02:30:14.343090 UTC | MeanKL                        0.080645
+2017-06-02 02:30:14.343184 UTC | dLoss                         0.0752906
+2017-06-02 02:30:14.343284 UTC | -----------------------  ----------------
+2017-06-02 02:30:16.460856 UTC | [crosswalk_exp] itr #12 | fitting baseline...
+2017-06-02 02:30:16.513927 UTC | [crosswalk_exp] itr #12 | fitted
+2017-06-02 02:30:16.922541 UTC | [crosswalk_exp] itr #12 | computing loss before
+2017-06-02 02:30:17.121075 UTC | [crosswalk_exp] itr #12 | performing update
+2017-06-02 02:30:17.121369 UTC | [crosswalk_exp] itr #12 | computing descent direction
+2017-06-02 02:30:22.501153 UTC | [crosswalk_exp] itr #12 | descent direction computed
+2017-06-02 02:30:22.886073 UTC | [crosswalk_exp] itr #12 | backtrack iters: 1
+2017-06-02 02:30:22.886355 UTC | [crosswalk_exp] itr #12 | computing loss after
+2017-06-02 02:30:22.886489 UTC | [crosswalk_exp] itr #12 | optimization finished
+2017-06-02 02:30:23.270075 UTC | [crosswalk_exp] itr #12 | saving snapshot...
+2017-06-02 02:30:23.363017 UTC | [crosswalk_exp] itr #12 | saved
+2017-06-02 02:30:23.364388 UTC | -----------------------  ---------------
+2017-06-02 02:30:23.364554 UTC | Iteration                    12
+2017-06-02 02:30:23.364666 UTC | AverageDiscountedReturn   -1963.86
+2017-06-02 02:30:23.364800 UTC | AverageReturn             -2003.71
+2017-06-02 02:30:23.364931 UTC | ExplainedVariance            -0.0017868
+2017-06-02 02:30:23.365039 UTC | NumTrajs                   1334
+2017-06-02 02:30:23.365141 UTC | Entropy                       0.908202
+2017-06-02 02:30:23.365263 UTC | Perplexity                    2.47986
+2017-06-02 02:30:23.365358 UTC | StdReturn                  4232.97
+2017-06-02 02:30:23.365468 UTC | MaxReturn                    -0.323662
+2017-06-02 02:30:23.365576 UTC | MinReturn                -11588.6
+2017-06-02 02:30:23.365675 UTC | AveragePolicyStd              0.543513
+2017-06-02 02:30:23.365774 UTC | LossBefore                   -7.1962e-17
+2017-06-02 02:30:23.365872 UTC | LossAfter                    -0.0733908
+2017-06-02 02:30:23.365971 UTC | MeanKLBefore                  0
+2017-06-02 02:30:23.366072 UTC | MeanKL                        0.0795136
+2017-06-02 02:30:23.366170 UTC | dLoss                         0.0733908
+2017-06-02 02:30:23.366269 UTC | -----------------------  ---------------
+2017-06-02 02:30:25.308322 UTC | [crosswalk_exp] itr #13 | fitting baseline...
+2017-06-02 02:30:25.361066 UTC | [crosswalk_exp] itr #13 | fitted
+2017-06-02 02:30:25.765580 UTC | [crosswalk_exp] itr #13 | computing loss before
+2017-06-02 02:30:25.958358 UTC | [crosswalk_exp] itr #13 | performing update
+2017-06-02 02:30:25.958821 UTC | [crosswalk_exp] itr #13 | computing descent direction
+2017-06-02 02:30:31.366273 UTC | [crosswalk_exp] itr #13 | descent direction computed
+2017-06-02 02:30:31.751156 UTC | [crosswalk_exp] itr #13 | backtrack iters: 1
+2017-06-02 02:30:31.751451 UTC | [crosswalk_exp] itr #13 | computing loss after
+2017-06-02 02:30:31.751578 UTC | [crosswalk_exp] itr #13 | optimization finished
+2017-06-02 02:30:32.133820 UTC | [crosswalk_exp] itr #13 | saving snapshot...
+2017-06-02 02:30:32.226302 UTC | [crosswalk_exp] itr #13 | saved
+2017-06-02 02:30:32.227648 UTC | -----------------------  ----------------
+2017-06-02 02:30:32.227809 UTC | Iteration                    13
+2017-06-02 02:30:32.227922 UTC | AverageDiscountedReturn   -1140.5
+2017-06-02 02:30:32.228040 UTC | AverageReturn             -1163.64
+2017-06-02 02:30:32.228146 UTC | ExplainedVariance            -0.00106883
+2017-06-02 02:30:32.228248 UTC | NumTrajs                   1334
+2017-06-02 02:30:32.228370 UTC | Entropy                       0.665145
+2017-06-02 02:30:32.228476 UTC | Perplexity                    1.94477
+2017-06-02 02:30:32.228577 UTC | StdReturn                  3368.03
+2017-06-02 02:30:32.228675 UTC | MaxReturn                    -0.282397
+2017-06-02 02:30:32.228804 UTC | MinReturn                -11534.6
+2017-06-02 02:30:32.228928 UTC | AveragePolicyStd              0.527609
+2017-06-02 02:30:32.229037 UTC | LossBefore                    9.27544e-17
+2017-06-02 02:30:32.229935 UTC | LossAfter                    -0.0738517
+2017-06-02 02:30:32.230187 UTC | MeanKLBefore                  0
+2017-06-02 02:30:32.230300 UTC | MeanKL                        0.0783405
+2017-06-02 02:30:32.230407 UTC | dLoss                         0.0738517
+2017-06-02 02:30:32.230520 UTC | -----------------------  ----------------
+2017-06-02 02:30:34.189405 UTC | [crosswalk_exp] itr #14 | fitting baseline...
+2017-06-02 02:30:34.241627 UTC | [crosswalk_exp] itr #14 | fitted
+2017-06-02 02:30:34.648100 UTC | [crosswalk_exp] itr #14 | computing loss before
+2017-06-02 02:30:34.842535 UTC | [crosswalk_exp] itr #14 | performing update
+2017-06-02 02:30:34.842823 UTC | [crosswalk_exp] itr #14 | computing descent direction
+2017-06-02 02:30:39.838055 UTC | [crosswalk_exp] itr #14 | descent direction computed
+2017-06-02 02:30:40.264712 UTC | [crosswalk_exp] itr #14 | backtrack iters: 2
+2017-06-02 02:30:40.264968 UTC | [crosswalk_exp] itr #14 | computing loss after
+2017-06-02 02:30:40.265076 UTC | [crosswalk_exp] itr #14 | optimization finished
+2017-06-02 02:30:40.522446 UTC | [crosswalk_exp] itr #14 | saving snapshot...
+2017-06-02 02:30:40.601450 UTC | [crosswalk_exp] itr #14 | saved
+2017-06-02 02:30:40.602653 UTC | -----------------------  ----------------
+2017-06-02 02:30:40.602780 UTC | Iteration                    14
+2017-06-02 02:30:40.602887 UTC | AverageDiscountedReturn    -508.584
+2017-06-02 02:30:40.602992 UTC | AverageReturn              -518.89
+2017-06-02 02:30:40.603134 UTC | ExplainedVariance            -0.00303057
+2017-06-02 02:30:40.603213 UTC | NumTrajs                   1334
+2017-06-02 02:30:40.603316 UTC | Entropy                       0.435685
+2017-06-02 02:30:40.603453 UTC | Perplexity                    1.54602
+2017-06-02 02:30:40.603562 UTC | StdReturn                  2324.97
+2017-06-02 02:30:40.603651 UTC | MaxReturn                    -0.374087
+2017-06-02 02:30:40.603741 UTC | MinReturn                -11597.1
+2017-06-02 02:30:40.603813 UTC | AveragePolicyStd              0.516511
+2017-06-02 02:30:40.603898 UTC | LossBefore                   -1.50547e-16
+2017-06-02 02:30:40.603984 UTC | LossAfter                    -0.0486925
+2017-06-02 02:30:40.604068 UTC | MeanKLBefore                  0
+2017-06-02 02:30:40.604141 UTC | MeanKL                        0.0567568
+2017-06-02 02:30:40.604239 UTC | dLoss                         0.0486925
+2017-06-02 02:30:40.604355 UTC | -----------------------  ----------------
+2017-06-02 02:30:42.418662 UTC | [crosswalk_exp] itr #15 | fitting baseline...
+2017-06-02 02:30:42.457306 UTC | [crosswalk_exp] itr #15 | fitted
+2017-06-02 02:30:42.730361 UTC | [crosswalk_exp] itr #15 | computing loss before
+2017-06-02 02:30:42.858299 UTC | [crosswalk_exp] itr #15 | performing update
+2017-06-02 02:30:42.858571 UTC | [crosswalk_exp] itr #15 | computing descent direction
+2017-06-02 02:30:47.656321 UTC | [crosswalk_exp] itr #15 | descent direction computed
+2017-06-02 02:30:48.163627 UTC | [crosswalk_exp] itr #15 | backtrack iters: 2
+2017-06-02 02:30:48.163885 UTC | [crosswalk_exp] itr #15 | computing loss after
+2017-06-02 02:30:48.163982 UTC | [crosswalk_exp] itr #15 | optimization finished
+2017-06-02 02:30:48.454054 UTC | [crosswalk_exp] itr #15 | saving snapshot...
+2017-06-02 02:30:48.538202 UTC | [crosswalk_exp] itr #15 | saved
+2017-06-02 02:30:48.539565 UTC | -----------------------  ----------------
+2017-06-02 02:30:48.539757 UTC | Iteration                    15
+2017-06-02 02:30:48.539894 UTC | AverageDiscountedReturn    -147.202
+2017-06-02 02:30:48.540002 UTC | AverageReturn              -150.171
+2017-06-02 02:30:48.540102 UTC | ExplainedVariance            -0.00237019
+2017-06-02 02:30:48.540184 UTC | NumTrajs                   1334
+2017-06-02 02:30:48.540260 UTC | Entropy                       0.246066
+2017-06-02 02:30:48.540338 UTC | Perplexity                    1.27898
+2017-06-02 02:30:48.540414 UTC | StdReturn                  1272.42
+2017-06-02 02:30:48.540491 UTC | MaxReturn                    -0.297394
+2017-06-02 02:30:48.540579 UTC | MinReturn                -11438.4
+2017-06-02 02:30:48.540652 UTC | AveragePolicyStd              0.507392
+2017-06-02 02:30:48.540758 UTC | LossBefore                   -1.52787e-17
+2017-06-02 02:30:48.540856 UTC | LossAfter                    -0.0403618
+2017-06-02 02:30:48.540932 UTC | MeanKLBefore                  0
+2017-06-02 02:30:48.541006 UTC | MeanKL                        0.0953008
+2017-06-02 02:30:48.541110 UTC | dLoss                         0.0403618
+2017-06-02 02:30:48.541192 UTC | -----------------------  ----------------
+2017-06-02 02:30:50.324971 UTC | [crosswalk_exp] itr #16 | fitting baseline...
+2017-06-02 02:30:50.364224 UTC | [crosswalk_exp] itr #16 | fitted
+2017-06-02 02:30:50.657261 UTC | [crosswalk_exp] itr #16 | computing loss before
+2017-06-02 02:30:50.804669 UTC | [crosswalk_exp] itr #16 | performing update
+2017-06-02 02:30:50.804950 UTC | [crosswalk_exp] itr #16 | computing descent direction
+2017-06-02 02:30:55.979888 UTC | [crosswalk_exp] itr #16 | descent direction computed
+2017-06-02 02:30:56.369632 UTC | [crosswalk_exp] itr #16 | backtrack iters: 1
+2017-06-02 02:30:56.369974 UTC | [crosswalk_exp] itr #16 | computing loss after
+2017-06-02 02:30:56.370116 UTC | [crosswalk_exp] itr #16 | optimization finished
+2017-06-02 02:30:56.754612 UTC | [crosswalk_exp] itr #16 | saving snapshot...
+2017-06-02 02:30:56.847820 UTC | [crosswalk_exp] itr #16 | saved
+2017-06-02 02:30:56.849213 UTC | -----------------------  ----------------
+2017-06-02 02:30:56.849393 UTC | Iteration                    16
+2017-06-02 02:30:56.849541 UTC | AverageDiscountedReturn     -73.1081
+2017-06-02 02:30:56.849665 UTC | AverageReturn               -74.573
+2017-06-02 02:30:56.849783 UTC | ExplainedVariance            -0.000385263
+2017-06-02 02:30:56.849896 UTC | NumTrajs                   1334
+2017-06-02 02:30:56.850022 UTC | Entropy                       0.0796463
+2017-06-02 02:30:56.850172 UTC | Perplexity                    1.0829
+2017-06-02 02:30:56.850311 UTC | StdReturn                   888.808
+2017-06-02 02:30:56.850443 UTC | MaxReturn                    -0.344674
+2017-06-02 02:30:56.850569 UTC | MinReturn                -11539.1
+2017-06-02 02:30:56.850699 UTC | AveragePolicyStd              0.498164
+2017-06-02 02:30:56.850811 UTC | LossBefore                    1.28085e-16
+2017-06-02 02:30:56.850924 UTC | LossAfter                    -0.028654
+2017-06-02 02:30:56.851037 UTC | MeanKLBefore                  0
+2017-06-02 02:30:56.851146 UTC | MeanKL                        0.0912031
+2017-06-02 02:30:56.851271 UTC | dLoss                         0.028654
+2017-06-02 02:30:56.851386 UTC | -----------------------  ----------------
+2017-06-02 02:30:58.913397 UTC | [crosswalk_exp] itr #17 | fitting baseline...
+2017-06-02 02:30:58.966683 UTC | [crosswalk_exp] itr #17 | fitted
+2017-06-02 02:30:59.375532 UTC | [crosswalk_exp] itr #17 | computing loss before
+2017-06-02 02:30:59.568241 UTC | [crosswalk_exp] itr #17 | performing update
+2017-06-02 02:30:59.568552 UTC | [crosswalk_exp] itr #17 | computing descent direction
+2017-06-02 02:31:05.021929 UTC | [crosswalk_exp] itr #17 | descent direction computed
+2017-06-02 02:31:05.989763 UTC | [crosswalk_exp] itr #17 | backtrack iters: 4
+2017-06-02 02:31:05.990061 UTC | [crosswalk_exp] itr #17 | computing loss after
+2017-06-02 02:31:05.990187 UTC | [crosswalk_exp] itr #17 | optimization finished
+2017-06-02 02:31:06.380350 UTC | [crosswalk_exp] itr #17 | saving snapshot...
+2017-06-02 02:31:06.471384 UTC | [crosswalk_exp] itr #17 | saved
+2017-06-02 02:31:06.472693 UTC | -----------------------  ---------------
+2017-06-02 02:31:06.472877 UTC | Iteration                   17
+2017-06-02 02:31:06.473004 UTC | AverageDiscountedReturn     -1.32655
+2017-06-02 02:31:06.473124 UTC | AverageReturn               -1.33405
+2017-06-02 02:31:06.473230 UTC | ExplainedVariance        -1995.54
+2017-06-02 02:31:06.473336 UTC | NumTrajs                  1334
+2017-06-02 02:31:06.473453 UTC | Entropy                     -0.129539
+2017-06-02 02:31:06.473565 UTC | Perplexity                   0.878501
+2017-06-02 02:31:06.473669 UTC | StdReturn                    0.263165
+2017-06-02 02:31:06.473772 UTC | MaxReturn                   -0.474646
+2017-06-02 02:31:06.473874 UTC | MinReturn                   -1.97429
+2017-06-02 02:31:06.473972 UTC | AveragePolicyStd             0.491915
+2017-06-02 02:31:06.474072 UTC | LossBefore                   4.89364e-17
+2017-06-02 02:31:06.474170 UTC | LossAfter                   -0.00503272
+2017-06-02 02:31:06.474268 UTC | MeanKLBefore                 0
+2017-06-02 02:31:06.474367 UTC | MeanKL                       0.0844129
+2017-06-02 02:31:06.474464 UTC | dLoss                        0.00503272
+2017-06-02 02:31:06.474570 UTC | -----------------------  ---------------
+2017-06-02 02:31:08.502899 UTC | [crosswalk_exp] itr #18 | fitting baseline...
+2017-06-02 02:31:08.555479 UTC | [crosswalk_exp] itr #18 | fitted
+2017-06-02 02:31:08.956676 UTC | [crosswalk_exp] itr #18 | computing loss before
+2017-06-02 02:31:09.149289 UTC | [crosswalk_exp] itr #18 | performing update
+2017-06-02 02:31:09.149595 UTC | [crosswalk_exp] itr #18 | computing descent direction
+2017-06-02 02:31:14.667625 UTC | [crosswalk_exp] itr #18 | descent direction computed
+2017-06-02 02:31:15.637032 UTC | [crosswalk_exp] itr #18 | backtrack iters: 4
+2017-06-02 02:31:15.637336 UTC | [crosswalk_exp] itr #18 | computing loss after
+2017-06-02 02:31:15.637459 UTC | [crosswalk_exp] itr #18 | optimization finished
+2017-06-02 02:31:16.020876 UTC | [crosswalk_exp] itr #18 | saving snapshot...
+2017-06-02 02:31:16.112197 UTC | [crosswalk_exp] itr #18 | saved
+2017-06-02 02:31:16.113602 UTC | -----------------------  ----------------
+2017-06-02 02:31:16.113773 UTC | Iteration                    18
+2017-06-02 02:31:16.113902 UTC | AverageDiscountedReturn      -9.54875
+2017-06-02 02:31:16.114021 UTC | AverageReturn                -9.72314
+2017-06-02 02:31:16.114135 UTC | ExplainedVariance             3.58e-06
+2017-06-02 02:31:16.114245 UTC | NumTrajs                   1334
+2017-06-02 02:31:16.114374 UTC | Entropy                      -0.136724
+2017-06-02 02:31:16.114481 UTC | Perplexity                    0.872211
+2017-06-02 02:31:16.114599 UTC | StdReturn                   306.663
+2017-06-02 02:31:16.114705 UTC | MaxReturn                    -0.48517
+2017-06-02 02:31:16.114813 UTC | MinReturn                -11206.1
+2017-06-02 02:31:16.114915 UTC | AveragePolicyStd              0.492369
+2017-06-02 02:31:16.115020 UTC | LossBefore                    7.91271e-17
+2017-06-02 02:31:16.115124 UTC | LossAfter                    -0.0105322
+2017-06-02 02:31:16.115225 UTC | MeanKLBefore                  0
+2017-06-02 02:31:16.115329 UTC | MeanKL                        0.0467826
+2017-06-02 02:31:16.115430 UTC | dLoss                         0.0105322
+2017-06-02 02:31:16.115544 UTC | -----------------------  ----------------
+2017-06-02 02:31:18.188833 UTC | [crosswalk_exp] itr #19 | fitting baseline...
+2017-06-02 02:31:18.241808 UTC | [crosswalk_exp] itr #19 | fitted
+2017-06-02 02:31:18.649791 UTC | [crosswalk_exp] itr #19 | computing loss before
+2017-06-02 02:31:18.840174 UTC | [crosswalk_exp] itr #19 | performing update
+2017-06-02 02:31:18.840472 UTC | [crosswalk_exp] itr #19 | computing descent direction
+2017-06-02 02:31:24.274699 UTC | [crosswalk_exp] itr #19 | descent direction computed
+2017-06-02 02:31:24.875079 UTC | [crosswalk_exp] itr #19 | backtrack iters: 2
+2017-06-02 02:31:24.875408 UTC | [crosswalk_exp] itr #19 | computing loss after
+2017-06-02 02:31:24.875542 UTC | [crosswalk_exp] itr #19 | optimization finished
+2017-06-02 02:31:25.266796 UTC | [crosswalk_exp] itr #19 | saving snapshot...
+2017-06-02 02:31:25.359466 UTC | [crosswalk_exp] itr #19 | saved
+2017-06-02 02:31:25.360856 UTC | -----------------------  ---------------
+2017-06-02 02:31:25.361018 UTC | Iteration                   19
+2017-06-02 02:31:25.361146 UTC | AverageDiscountedReturn     -1.28636
+2017-06-02 02:31:25.361265 UTC | AverageReturn               -1.29325
+2017-06-02 02:31:25.361381 UTC | ExplainedVariance        -2062.52
+2017-06-02 02:31:25.361495 UTC | NumTrajs                  1334
+2017-06-02 02:31:25.361620 UTC | Entropy                     -0.164524
+2017-06-02 02:31:25.361738 UTC | Perplexity                   0.848297
+2017-06-02 02:31:25.361850 UTC | StdReturn                    0.276719
+2017-06-02 02:31:25.361961 UTC | MaxReturn                   -0.364787
+2017-06-02 02:31:25.362072 UTC | MinReturn                   -1.97806
+2017-06-02 02:31:25.362176 UTC | AveragePolicyStd             0.48524
+2017-06-02 02:31:25.362280 UTC | LossBefore                   3.51987e-16
+2017-06-02 02:31:25.362384 UTC | LossAfter                   -0.0139
+2017-06-02 02:31:25.362485 UTC | MeanKLBefore                 0
+2017-06-02 02:31:25.362600 UTC | MeanKL                       0.0741136
+2017-06-02 02:31:25.362702 UTC | dLoss                        0.0139
+2017-06-02 02:31:25.362803 UTC | -----------------------  ---------------
+2017-06-02 02:31:27.387659 UTC | [crosswalk_exp] itr #20 | fitting baseline...
+2017-06-02 02:31:27.439666 UTC | [crosswalk_exp] itr #20 | fitted
+2017-06-02 02:31:27.850875 UTC | [crosswalk_exp] itr #20 | computing loss before
+2017-06-02 02:31:28.047389 UTC | [crosswalk_exp] itr #20 | performing update
+2017-06-02 02:31:28.047696 UTC | [crosswalk_exp] itr #20 | computing descent direction
+2017-06-02 02:31:33.533479 UTC | [crosswalk_exp] itr #20 | descent direction computed
+2017-06-02 02:31:33.927267 UTC | [crosswalk_exp] itr #20 | backtrack iters: 1
+2017-06-02 02:31:33.927579 UTC | [crosswalk_exp] itr #20 | computing loss after
+2017-06-02 02:31:33.927701 UTC | [crosswalk_exp] itr #20 | optimization finished
+2017-06-02 02:31:34.319683 UTC | [crosswalk_exp] itr #20 | saving snapshot...
+2017-06-02 02:31:34.414240 UTC | [crosswalk_exp] itr #20 | saved
+2017-06-02 02:31:34.415677 UTC | -----------------------  --------------
+2017-06-02 02:31:34.415867 UTC | Iteration                  20
+2017-06-02 02:31:34.415996 UTC | AverageDiscountedReturn    -1.23675
+2017-06-02 02:31:34.416115 UTC | AverageReturn              -1.24351
+2017-06-02 02:31:34.416228 UTC | ExplainedVariance           0.871405
+2017-06-02 02:31:34.416338 UTC | NumTrajs                 1334
+2017-06-02 02:31:34.416448 UTC | Entropy                    -0.195354
+2017-06-02 02:31:34.416567 UTC | Perplexity                  0.822543
+2017-06-02 02:31:34.416676 UTC | StdReturn                   0.28255
+2017-06-02 02:31:34.416839 UTC | MaxReturn                  -0.216586
+2017-06-02 02:31:34.416967 UTC | MinReturn                  -1.93825
+2017-06-02 02:31:34.417082 UTC | AveragePolicyStd            0.452706
+2017-06-02 02:31:34.417194 UTC | LossBefore                 -1.94098e-15
+2017-06-02 02:31:34.417304 UTC | LossAfter                  -0.213907
+2017-06-02 02:31:34.417412 UTC | MeanKLBefore                0
+2017-06-02 02:31:34.417528 UTC | MeanKL                      0.0703343
+2017-06-02 02:31:34.417657 UTC | dLoss                       0.213907
+2017-06-02 02:31:34.417769 UTC | -----------------------  --------------
+2017-06-02 02:31:36.468093 UTC | [crosswalk_exp] itr #21 | fitting baseline...
+2017-06-02 02:31:36.520159 UTC | [crosswalk_exp] itr #21 | fitted
+2017-06-02 02:31:36.930344 UTC | [crosswalk_exp] itr #21 | computing loss before
+2017-06-02 02:31:37.125705 UTC | [crosswalk_exp] itr #21 | performing update
+2017-06-02 02:31:37.126034 UTC | [crosswalk_exp] itr #21 | computing descent direction
+2017-06-02 02:31:42.603645 UTC | [crosswalk_exp] itr #21 | descent direction computed
+2017-06-02 02:31:42.996716 UTC | [crosswalk_exp] itr #21 | backtrack iters: 1
+2017-06-02 02:31:42.997042 UTC | [crosswalk_exp] itr #21 | computing loss after
+2017-06-02 02:31:42.997164 UTC | [crosswalk_exp] itr #21 | optimization finished
+2017-06-02 02:31:43.386494 UTC | [crosswalk_exp] itr #21 | saving snapshot...
+2017-06-02 02:31:43.480171 UTC | [crosswalk_exp] itr #21 | saved
+2017-06-02 02:31:43.481613 UTC | -----------------------  --------------
+2017-06-02 02:31:43.481773 UTC | Iteration                  21
+2017-06-02 02:31:43.481900 UTC | AverageDiscountedReturn    -1.11096
+2017-06-02 02:31:43.482022 UTC | AverageReturn              -1.11704
+2017-06-02 02:31:43.482144 UTC | ExplainedVariance           0.841798
+2017-06-02 02:31:43.482261 UTC | NumTrajs                 1334
+2017-06-02 02:31:43.482377 UTC | Entropy                    -0.418125
+2017-06-02 02:31:43.482491 UTC | Perplexity                  0.65828
+2017-06-02 02:31:43.482612 UTC | StdReturn                   0.274843
+2017-06-02 02:31:43.482750 UTC | MaxReturn                  -0.190295
+2017-06-02 02:31:43.482867 UTC | MinReturn                  -1.9484
+2017-06-02 02:31:43.482983 UTC | AveragePolicyStd            0.381921
+2017-06-02 02:31:43.483102 UTC | LossBefore                 -1.16023e-15
+2017-06-02 02:31:43.483213 UTC | LossAfter                  -0.203411
+2017-06-02 02:31:43.483323 UTC | MeanKLBefore                0
+2017-06-02 02:31:43.483432 UTC | MeanKL                      0.0710793
+2017-06-02 02:31:43.483549 UTC | dLoss                       0.203411
+2017-06-02 02:31:43.483659 UTC | -----------------------  --------------
+2017-06-02 02:31:45.500120 UTC | [crosswalk_exp] itr #22 | fitting baseline...
+2017-06-02 02:31:45.551067 UTC | [crosswalk_exp] itr #22 | fitted
+2017-06-02 02:31:45.958440 UTC | [crosswalk_exp] itr #22 | computing loss before
+2017-06-02 02:31:46.153424 UTC | [crosswalk_exp] itr #22 | performing update
+2017-06-02 02:31:46.153734 UTC | [crosswalk_exp] itr #22 | computing descent direction
+2017-06-02 02:31:51.600971 UTC | [crosswalk_exp] itr #22 | descent direction computed
+2017-06-02 02:31:51.988260 UTC | [crosswalk_exp] itr #22 | backtrack iters: 1
+2017-06-02 02:31:51.988561 UTC | [crosswalk_exp] itr #22 | computing loss after
+2017-06-02 02:31:51.988681 UTC | [crosswalk_exp] itr #22 | optimization finished
+2017-06-02 02:31:52.378352 UTC | [crosswalk_exp] itr #22 | saving snapshot...
+2017-06-02 02:31:52.470419 UTC | [crosswalk_exp] itr #22 | saved
+2017-06-02 02:31:52.471736 UTC | -----------------------  --------------
+2017-06-02 02:31:52.471882 UTC | Iteration                  22
+2017-06-02 02:31:52.472035 UTC | AverageDiscountedReturn    -0.987957
+2017-06-02 02:31:52.472150 UTC | AverageReturn              -0.993408
+2017-06-02 02:31:52.472261 UTC | ExplainedVariance           0.804738
+2017-06-02 02:31:52.472369 UTC | NumTrajs                 1334
+2017-06-02 02:31:52.472486 UTC | Entropy                    -0.652143
+2017-06-02 02:31:52.472605 UTC | Perplexity                  0.520928
+2017-06-02 02:31:52.472712 UTC | StdReturn                   0.276148
+2017-06-02 02:31:52.472871 UTC | MaxReturn                  -0.234806
+2017-06-02 02:31:52.472994 UTC | MinReturn                  -1.65919
+2017-06-02 02:31:52.473120 UTC | AveragePolicyStd            0.317899
+2017-06-02 02:31:52.473231 UTC | LossBefore                  1.54202e-15
+2017-06-02 02:31:52.473331 UTC | LossAfter                  -0.208095
+2017-06-02 02:31:52.473429 UTC | MeanKLBefore                0
+2017-06-02 02:31:52.473535 UTC | MeanKL                      0.0715549
+2017-06-02 02:31:52.473634 UTC | dLoss                       0.208095
+2017-06-02 02:31:52.473731 UTC | -----------------------  --------------
+2017-06-02 02:31:54.511420 UTC | [crosswalk_exp] itr #23 | fitting baseline...
+2017-06-02 02:31:54.563411 UTC | [crosswalk_exp] itr #23 | fitted
+2017-06-02 02:31:54.967468 UTC | [crosswalk_exp] itr #23 | computing loss before
+2017-06-02 02:31:55.163210 UTC | [crosswalk_exp] itr #23 | performing update
+2017-06-02 02:31:55.163514 UTC | [crosswalk_exp] itr #23 | computing descent direction
+2017-06-02 02:32:00.569212 UTC | [crosswalk_exp] itr #23 | descent direction computed
+2017-06-02 02:32:00.958480 UTC | [crosswalk_exp] itr #23 | backtrack iters: 1
+2017-06-02 02:32:00.958779 UTC | [crosswalk_exp] itr #23 | computing loss after
+2017-06-02 02:32:00.958906 UTC | [crosswalk_exp] itr #23 | optimization finished
+2017-06-02 02:32:01.348017 UTC | [crosswalk_exp] itr #23 | saving snapshot...
+2017-06-02 02:32:01.440585 UTC | [crosswalk_exp] itr #23 | saved
+2017-06-02 02:32:01.441982 UTC | -----------------------  --------------
+2017-06-02 02:32:01.442154 UTC | Iteration                  23
+2017-06-02 02:32:01.442280 UTC | AverageDiscountedReturn    -0.868522
+2017-06-02 02:32:01.442414 UTC | AverageReturn              -0.873293
+2017-06-02 02:32:01.442541 UTC | ExplainedVariance           0.777356
+2017-06-02 02:32:01.442658 UTC | NumTrajs                 1334
+2017-06-02 02:32:01.442773 UTC | Entropy                    -0.905781
+2017-06-02 02:32:01.442886 UTC | Perplexity                  0.404226
+2017-06-02 02:32:01.442999 UTC | StdReturn                   0.262674
+2017-06-02 02:32:01.443147 UTC | MaxReturn                  -0.133919
+2017-06-02 02:32:01.443271 UTC | MinReturn                  -1.6202
+2017-06-02 02:32:01.443386 UTC | AveragePolicyStd            0.263915
+2017-06-02 02:32:01.443501 UTC | LossBefore                 -7.77267e-16
+2017-06-02 02:32:01.443623 UTC | LossAfter                  -0.207561
+2017-06-02 02:32:01.443734 UTC | MeanKLBefore                0
+2017-06-02 02:32:01.443845 UTC | MeanKL                      0.0723281
+2017-06-02 02:32:01.443956 UTC | dLoss                       0.207561
+2017-06-02 02:32:01.444067 UTC | -----------------------  --------------
+2017-06-02 02:32:03.519781 UTC | [crosswalk_exp] itr #24 | fitting baseline...
+2017-06-02 02:32:03.571350 UTC | [crosswalk_exp] itr #24 | fitted
+2017-06-02 02:32:03.975564 UTC | [crosswalk_exp] itr #24 | computing loss before
+2017-06-02 02:32:04.162424 UTC | [crosswalk_exp] itr #24 | performing update
+2017-06-02 02:32:04.162734 UTC | [crosswalk_exp] itr #24 | computing descent direction
+2017-06-02 02:32:09.609226 UTC | [crosswalk_exp] itr #24 | descent direction computed
+2017-06-02 02:32:09.989195 UTC | [crosswalk_exp] itr #24 | backtrack iters: 1
+2017-06-02 02:32:09.989486 UTC | [crosswalk_exp] itr #24 | computing loss after
+2017-06-02 02:32:09.989621 UTC | [crosswalk_exp] itr #24 | optimization finished
+2017-06-02 02:32:10.369423 UTC | [crosswalk_exp] itr #24 | saving snapshot...
+2017-06-02 02:32:10.458465 UTC | [crosswalk_exp] itr #24 | saved
+2017-06-02 02:32:10.459745 UTC | -----------------------  --------------
+2017-06-02 02:32:10.459904 UTC | Iteration                  24
+2017-06-02 02:32:10.460025 UTC | AverageDiscountedReturn    -0.750526
+2017-06-02 02:32:10.460145 UTC | AverageReturn              -0.754551
+2017-06-02 02:32:10.460254 UTC | ExplainedVariance           0.759247
+2017-06-02 02:32:10.460360 UTC | NumTrajs                 1334
+2017-06-02 02:32:10.460497 UTC | Entropy                    -1.17972
+2017-06-02 02:32:10.460613 UTC | Perplexity                  0.307364
+2017-06-02 02:32:10.460719 UTC | StdReturn                   0.231494
+2017-06-02 02:32:10.460854 UTC | MaxReturn                  -0.170263
+2017-06-02 02:32:10.460955 UTC | MinReturn                  -1.5623
+2017-06-02 02:32:10.461062 UTC | AveragePolicyStd            0.217237
+2017-06-02 02:32:10.461160 UTC | LossBefore                 -7.52244e-16
+2017-06-02 02:32:10.461263 UTC | LossAfter                  -0.209797
+2017-06-02 02:32:10.461360 UTC | MeanKLBefore                0
+2017-06-02 02:32:10.461458 UTC | MeanKL                      0.0744239
+2017-06-02 02:32:10.461565 UTC | dLoss                       0.209797
+2017-06-02 02:32:10.461661 UTC | -----------------------  --------------
