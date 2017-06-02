@@ -1,0 +1,292 @@
+2017-06-02 00:02:15.674156 UTC | [gail_exp] Populating workers...
+2017-06-02 00:02:15.674401 UTC | [gail_exp] Populated
+2017-06-02 00:02:17.469241 UTC | [gail_exp] itr #0 | fitting baseline...
+2017-06-02 00:02:17.510230 UTC | [gail_exp] itr #0 | fitted
+2017-06-02 00:02:18.333849 UTC | [gail_exp] itr #0 | computing loss before
+2017-06-02 00:02:18.448778 UTC | [gail_exp] itr #0 | performing update
+2017-06-02 00:02:18.449019 UTC | [gail_exp] itr #0 | computing descent direction
+2017-06-02 00:02:25.556910 UTC | [gail_exp] itr #0 | descent direction computed
+2017-06-02 00:02:26.269351 UTC | [gail_exp] itr #0 | backtrack iters: 0
+2017-06-02 00:02:26.269648 UTC | [gail_exp] itr #0 | computing loss after
+2017-06-02 00:02:26.269757 UTC | [gail_exp] itr #0 | optimization finished
+2017-06-02 00:02:26.651980 UTC | [gail_exp] itr #0 | saving snapshot...
+2017-06-02 00:02:26.740881 UTC | [gail_exp] itr #0 | saved
+2017-06-02 00:02:26.742200 UTC | -----------------------  ----------------
+2017-06-02 00:02:26.742341 UTC | Iteration                     0
+2017-06-02 00:02:26.742451 UTC | AverageDiscountedReturn   -9728.22
+2017-06-02 00:02:26.742584 UTC | AverageReturn             -9925.72
+2017-06-02 00:02:26.742684 UTC | ExplainedVariance             7.77156e-16
+2017-06-02 00:02:26.742782 UTC | NumTrajs                   1334
+2017-06-02 00:02:26.742879 UTC | Entropy                       2.83788
+2017-06-02 00:02:26.742988 UTC | Perplexity                   17.0795
+2017-06-02 00:02:26.743087 UTC | StdReturn                  3436.51
+2017-06-02 00:02:26.743187 UTC | MaxReturn                    -0.501628
+2017-06-02 00:02:26.743278 UTC | MinReturn                -11983.3
+2017-06-02 00:02:26.743371 UTC | AveragePolicyStd              1
+2017-06-02 00:02:26.743469 UTC | LossBefore                   -1.86355e-16
+2017-06-02 00:02:26.743569 UTC | LossAfter                    -0.0503437
+2017-06-02 00:02:26.743670 UTC | MeanKLBefore                  0
+2017-06-02 00:02:26.743785 UTC | MeanKL                        0.0547745
+2017-06-02 00:02:26.743886 UTC | dLoss                         0.0503437
+2017-06-02 00:02:26.743990 UTC | -----------------------  ----------------
+2017-06-02 00:02:28.759642 UTC | [gail_exp] itr #1 | fitting baseline...
+2017-06-02 00:02:28.808919 UTC | [gail_exp] itr #1 | fitted
+2017-06-02 00:02:29.202635 UTC | [gail_exp] itr #1 | computing loss before
+2017-06-02 00:02:29.397593 UTC | [gail_exp] itr #1 | performing update
+2017-06-02 00:02:29.397881 UTC | [gail_exp] itr #1 | computing descent direction
+2017-06-02 00:02:34.749621 UTC | [gail_exp] itr #1 | descent direction computed
+2017-06-02 00:02:34.943919 UTC | [gail_exp] itr #1 | backtrack iters: 0
+2017-06-02 00:02:34.944235 UTC | [gail_exp] itr #1 | computing loss after
+2017-06-02 00:02:34.944341 UTC | [gail_exp] itr #1 | optimization finished
+2017-06-02 00:02:35.329066 UTC | [gail_exp] itr #1 | saving snapshot...
+2017-06-02 00:02:35.420917 UTC | [gail_exp] itr #1 | saved
+2017-06-02 00:02:35.422182 UTC | -----------------------  ----------------
+2017-06-02 00:02:35.422318 UTC | Iteration                     1
+2017-06-02 00:02:35.422425 UTC | AverageDiscountedReturn   -9445.55
+2017-06-02 00:02:35.422528 UTC | AverageReturn             -9637.31
+2017-06-02 00:02:35.422624 UTC | ExplainedVariance             0.0207495
+2017-06-02 00:02:35.422722 UTC | NumTrajs                   1334
+2017-06-02 00:02:35.422814 UTC | Entropy                       2.8226
+2017-06-02 00:02:35.422906 UTC | Perplexity                   16.8205
+2017-06-02 00:02:35.423015 UTC | StdReturn                  3643.12
+2017-06-02 00:02:35.423110 UTC | MaxReturn                    -0.209379
+2017-06-02 00:02:35.423206 UTC | MinReturn                -11939.4
+2017-06-02 00:02:35.423309 UTC | AveragePolicyStd              0.99239
+2017-06-02 00:02:35.423405 UTC | LossBefore                    1.48696e-17
+2017-06-02 00:02:35.423503 UTC | LossAfter                    -0.0384284
+2017-06-02 00:02:35.423597 UTC | MeanKLBefore                  0
+2017-06-02 00:02:35.423708 UTC | MeanKL                        0.0371155
+2017-06-02 00:02:35.423807 UTC | dLoss                         0.0384284
+2017-06-02 00:02:35.423916 UTC | -----------------------  ----------------
+2017-06-02 00:02:37.383160 UTC | [gail_exp] itr #2 | fitting baseline...
+2017-06-02 00:02:37.435158 UTC | [gail_exp] itr #2 | fitted
+2017-06-02 00:02:37.839651 UTC | [gail_exp] itr #2 | computing loss before
+2017-06-02 00:02:38.034274 UTC | [gail_exp] itr #2 | performing update
+2017-06-02 00:02:38.034555 UTC | [gail_exp] itr #2 | computing descent direction
+2017-06-02 00:02:43.483286 UTC | [gail_exp] itr #2 | descent direction computed
+2017-06-02 00:02:44.069278 UTC | [gail_exp] itr #2 | backtrack iters: 2
+2017-06-02 00:02:44.069564 UTC | [gail_exp] itr #2 | computing loss after
+2017-06-02 00:02:44.069675 UTC | [gail_exp] itr #2 | optimization finished
+2017-06-02 00:02:44.457289 UTC | [gail_exp] itr #2 | saving snapshot...
+2017-06-02 00:02:44.547474 UTC | [gail_exp] itr #2 | saved
+2017-06-02 00:02:44.548766 UTC | -----------------------  ----------------
+2017-06-02 00:02:44.548920 UTC | Iteration                     2
+2017-06-02 00:02:44.549041 UTC | AverageDiscountedReturn   -8825.58
+2017-06-02 00:02:44.549144 UTC | AverageReturn             -9004.76
+2017-06-02 00:02:44.549264 UTC | ExplainedVariance             0.0199035
+2017-06-02 00:02:44.549353 UTC | NumTrajs                   1334
+2017-06-02 00:02:44.549447 UTC | Entropy                       2.71554
+2017-06-02 00:02:44.549541 UTC | Perplexity                   15.1128
+2017-06-02 00:02:44.549651 UTC | StdReturn                  4246.15
+2017-06-02 00:02:44.549744 UTC | MaxReturn                    -0.257784
+2017-06-02 00:02:44.549836 UTC | MinReturn                -12039.7
+2017-06-02 00:02:44.549926 UTC | AveragePolicyStd              0.941274
+2017-06-02 00:02:44.550028 UTC | LossBefore                   -2.80191e-17
+2017-06-02 00:02:44.550119 UTC | LossAfter                    -0.0252725
+2017-06-02 00:02:44.550209 UTC | MeanKLBefore                  0
+2017-06-02 00:02:44.550301 UTC | MeanKL                        0.0789069
+2017-06-02 00:02:44.550393 UTC | dLoss                         0.0252725
+2017-06-02 00:02:44.550488 UTC | -----------------------  ----------------
+2017-06-02 00:02:46.464610 UTC | [gail_exp] itr #3 | fitting baseline...
+2017-06-02 00:02:46.513817 UTC | [gail_exp] itr #3 | fitted
+2017-06-02 00:02:46.909731 UTC | [gail_exp] itr #3 | computing loss before
+2017-06-02 00:02:47.102728 UTC | [gail_exp] itr #3 | performing update
+2017-06-02 00:02:47.103014 UTC | [gail_exp] itr #3 | computing descent direction
+2017-06-02 00:02:52.522192 UTC | [gail_exp] itr #3 | descent direction computed
+2017-06-02 00:02:52.721845 UTC | [gail_exp] itr #3 | backtrack iters: 0
+2017-06-02 00:02:52.722135 UTC | [gail_exp] itr #3 | computing loss after
+2017-06-02 00:02:52.722254 UTC | [gail_exp] itr #3 | optimization finished
+2017-06-02 00:02:53.111737 UTC | [gail_exp] itr #3 | saving snapshot...
+2017-06-02 00:02:53.179403 UTC | [gail_exp] itr #3 | saved
+2017-06-02 00:02:53.180180 UTC | -----------------------  ----------------
+2017-06-02 00:02:53.180282 UTC | Iteration                     3
+2017-06-02 00:02:53.180361 UTC | AverageDiscountedReturn   -8801.7
+2017-06-02 00:02:53.180433 UTC | AverageReturn             -8980.39
+2017-06-02 00:02:53.180504 UTC | ExplainedVariance             0.00672933
+2017-06-02 00:02:53.180573 UTC | NumTrajs                   1334
+2017-06-02 00:02:53.180641 UTC | Entropy                       2.65529
+2017-06-02 00:02:53.180715 UTC | Perplexity                   14.2291
+2017-06-02 00:02:53.180839 UTC | StdReturn                  4371.83
+2017-06-02 00:02:53.180906 UTC | MaxReturn                    -0.302811
+2017-06-02 00:02:53.180972 UTC | MinReturn                -12039.8
+2017-06-02 00:02:53.181038 UTC | AveragePolicyStd              0.914957
+2017-06-02 00:02:53.181115 UTC | LossBefore                   -1.63676e-17
+2017-06-02 00:02:53.181183 UTC | LossAfter                    -0.0573372
+2017-06-02 00:02:53.181252 UTC | MeanKLBefore                  0
+2017-06-02 00:02:53.181318 UTC | MeanKL                        0.0590137
+2017-06-02 00:02:53.181397 UTC | dLoss                         0.0573372
+2017-06-02 00:02:53.181464 UTC | -----------------------  ----------------
+2017-06-02 00:02:54.574302 UTC | [gail_exp] itr #4 | fitting baseline...
+2017-06-02 00:02:54.602907 UTC | [gail_exp] itr #4 | fitted
+2017-06-02 00:02:54.869139 UTC | [gail_exp] itr #4 | computing loss before
+2017-06-02 00:02:54.995089 UTC | [gail_exp] itr #4 | performing update
+2017-06-02 00:02:54.995323 UTC | [gail_exp] itr #4 | computing descent direction
+2017-06-02 00:02:59.501826 UTC | [gail_exp] itr #4 | descent direction computed
+2017-06-02 00:03:00.021227 UTC | [gail_exp] itr #4 | backtrack iters: 3
+2017-06-02 00:03:00.021493 UTC | [gail_exp] itr #4 | computing loss after
+2017-06-02 00:03:00.021597 UTC | [gail_exp] itr #4 | optimization finished
+2017-06-02 00:03:00.274965 UTC | [gail_exp] itr #4 | saving snapshot...
+2017-06-02 00:03:00.341038 UTC | [gail_exp] itr #4 | saved
+2017-06-02 00:03:00.341887 UTC | -----------------------  ----------------
+2017-06-02 00:03:00.342002 UTC | Iteration                     4
+2017-06-02 00:03:00.342084 UTC | AverageDiscountedReturn   -8179.67
+2017-06-02 00:03:00.342173 UTC | AverageReturn             -8345.73
+2017-06-02 00:03:00.342262 UTC | ExplainedVariance             0.000643634
+2017-06-02 00:03:00.342331 UTC | NumTrajs                   1334
+2017-06-02 00:03:00.342398 UTC | Entropy                       2.55662
+2017-06-02 00:03:00.342488 UTC | Perplexity                   12.8922
+2017-06-02 00:03:00.342554 UTC | StdReturn                  4760.33
+2017-06-02 00:03:00.342625 UTC | MaxReturn                    -0.516095
+2017-06-02 00:03:00.342693 UTC | MinReturn                -11856.4
+2017-06-02 00:03:00.342758 UTC | AveragePolicyStd              0.876216
+2017-06-02 00:03:00.342824 UTC | LossBefore                   -5.19047e-17
+2017-06-02 00:03:00.342890 UTC | LossAfter                    -0.00853042
+2017-06-02 00:03:00.342955 UTC | MeanKLBefore                  0
+2017-06-02 00:03:00.343021 UTC | MeanKL                        0.0319413
+2017-06-02 00:03:00.343087 UTC | dLoss                         0.00853042
+2017-06-02 00:03:00.343192 UTC | -----------------------  ----------------
+2017-06-02 00:03:01.744680 UTC | [gail_exp] itr #5 | fitting baseline...
+2017-06-02 00:03:01.774311 UTC | [gail_exp] itr #5 | fitted
+2017-06-02 00:03:02.039466 UTC | [gail_exp] itr #5 | computing loss before
+2017-06-02 00:03:02.167023 UTC | [gail_exp] itr #5 | performing update
+2017-06-02 00:03:02.167274 UTC | [gail_exp] itr #5 | computing descent direction
+2017-06-02 00:03:06.220401 UTC | [gail_exp] itr #5 | descent direction computed
+2017-06-02 00:03:06.471833 UTC | [gail_exp] itr #5 | backtrack iters: 1
+2017-06-02 00:03:06.472088 UTC | [gail_exp] itr #5 | computing loss after
+2017-06-02 00:03:06.472197 UTC | [gail_exp] itr #5 | optimization finished
+2017-06-02 00:03:06.708673 UTC | [gail_exp] itr #5 | saving snapshot...
+2017-06-02 00:03:06.774535 UTC | [gail_exp] itr #5 | saved
+2017-06-02 00:03:06.775329 UTC | -----------------------  ----------------
+2017-06-02 00:03:06.775439 UTC | Iteration                     5
+2017-06-02 00:03:06.775520 UTC | AverageDiscountedReturn   -8414.74
+2017-06-02 00:03:06.775595 UTC | AverageReturn             -8585.57
+2017-06-02 00:03:06.775666 UTC | ExplainedVariance             0.00612647
+2017-06-02 00:03:06.775746 UTC | NumTrajs                   1334
+2017-06-02 00:03:06.775821 UTC | Entropy                       2.46844
+2017-06-02 00:03:06.775898 UTC | Perplexity                   11.804
+2017-06-02 00:03:06.775964 UTC | StdReturn                  4599.13
+2017-06-02 00:03:06.776029 UTC | MaxReturn                    -0.481565
+2017-06-02 00:03:06.776095 UTC | MinReturn                -11884.5
+2017-06-02 00:03:06.776163 UTC | AveragePolicyStd              0.840814
+2017-06-02 00:03:06.776230 UTC | LossBefore                   -9.57644e-17
+2017-06-02 00:03:06.776295 UTC | LossAfter                    -0.0679614
+2017-06-02 00:03:06.776361 UTC | MeanKLBefore                  0
+2017-06-02 00:03:06.776426 UTC | MeanKL                        0.0889526
+2017-06-02 00:03:06.776499 UTC | dLoss                         0.0679614
+2017-06-02 00:03:06.776568 UTC | -----------------------  ----------------
+2017-06-02 00:03:08.143798 UTC | [gail_exp] itr #6 | fitting baseline...
+2017-06-02 00:03:08.173304 UTC | [gail_exp] itr #6 | fitted
+2017-06-02 00:03:08.440137 UTC | [gail_exp] itr #6 | computing loss before
+2017-06-02 00:03:08.567621 UTC | [gail_exp] itr #6 | performing update
+2017-06-02 00:03:08.567861 UTC | [gail_exp] itr #6 | computing descent direction
+2017-06-02 00:03:13.083084 UTC | [gail_exp] itr #6 | descent direction computed
+2017-06-02 00:03:13.475331 UTC | [gail_exp] itr #6 | backtrack iters: 2
+2017-06-02 00:03:13.475629 UTC | [gail_exp] itr #6 | computing loss after
+2017-06-02 00:03:13.475726 UTC | [gail_exp] itr #6 | optimization finished
+2017-06-02 00:03:13.733696 UTC | [gail_exp] itr #6 | saving snapshot...
+2017-06-02 00:03:13.798763 UTC | [gail_exp] itr #6 | saved
+2017-06-02 00:03:13.799573 UTC | -----------------------  ----------------
+2017-06-02 00:03:13.799675 UTC | Iteration                     6
+2017-06-02 00:03:13.799755 UTC | AverageDiscountedReturn   -7792.64
+2017-06-02 00:03:13.799826 UTC | AverageReturn             -7950.84
+2017-06-02 00:03:13.799895 UTC | ExplainedVariance            -0.00550141
+2017-06-02 00:03:13.799957 UTC | NumTrajs                   1334
+2017-06-02 00:03:13.800020 UTC | Entropy                       2.31645
+2017-06-02 00:03:13.800086 UTC | Perplexity                   10.1397
+2017-06-02 00:03:13.800149 UTC | StdReturn                  4919.87
+2017-06-02 00:03:13.800226 UTC | MaxReturn                    -0.344131
+2017-06-02 00:03:13.800291 UTC | MinReturn                -11829.3
+2017-06-02 00:03:13.800356 UTC | AveragePolicyStd              0.788023
+2017-06-02 00:03:13.800419 UTC | LossBefore                    1.75882e-17
+2017-06-02 00:03:13.800483 UTC | LossAfter                    -0.0197733
+2017-06-02 00:03:13.800545 UTC | MeanKLBefore                  0
+2017-06-02 00:03:13.800608 UTC | MeanKL                        0.0726134
+2017-06-02 00:03:13.800672 UTC | dLoss                         0.0197733
+2017-06-02 00:03:13.800756 UTC | -----------------------  ----------------
+2017-06-02 00:03:15.178809 UTC | [gail_exp] itr #7 | fitting baseline...
+2017-06-02 00:03:15.208049 UTC | [gail_exp] itr #7 | fitted
+2017-06-02 00:03:15.473439 UTC | [gail_exp] itr #7 | computing loss before
+2017-06-02 00:03:15.600235 UTC | [gail_exp] itr #7 | performing update
+2017-06-02 00:03:15.600467 UTC | [gail_exp] itr #7 | computing descent direction
+2017-06-02 00:03:20.726572 UTC | [gail_exp] itr #7 | descent direction computed
+2017-06-02 00:03:21.185876 UTC | [gail_exp] itr #7 | backtrack iters: 2
+2017-06-02 00:03:21.186139 UTC | [gail_exp] itr #7 | computing loss after
+2017-06-02 00:03:21.186237 UTC | [gail_exp] itr #7 | optimization finished
+2017-06-02 00:03:21.492857 UTC | [gail_exp] itr #7 | saving snapshot...
+2017-06-02 00:03:21.573606 UTC | [gail_exp] itr #7 | saved
+2017-06-02 00:03:21.574565 UTC | -----------------------  ----------------
+2017-06-02 00:03:21.574683 UTC | Iteration                     7
+2017-06-02 00:03:21.574781 UTC | AverageDiscountedReturn   -7072.26
+2017-06-02 00:03:21.574873 UTC | AverageReturn             -7215.84
+2017-06-02 00:03:21.574962 UTC | ExplainedVariance            -0.00180879
+2017-06-02 00:03:21.575096 UTC | NumTrajs                   1334
+2017-06-02 00:03:21.575177 UTC | Entropy                       2.19316
+2017-06-02 00:03:21.575300 UTC | Perplexity                    8.96353
+2017-06-02 00:03:21.575389 UTC | StdReturn                  5193.91
+2017-06-02 00:03:21.575491 UTC | MaxReturn                    -0.237461
+2017-06-02 00:03:21.575569 UTC | MinReturn                -11850.9
+2017-06-02 00:03:21.575652 UTC | AveragePolicyStd              0.754149
+2017-06-02 00:03:21.575733 UTC | LossBefore                   -6.71904e-17
+2017-06-02 00:03:21.575802 UTC | LossAfter                    -0.0288761
+2017-06-02 00:03:21.575871 UTC | MeanKLBefore                  0
+2017-06-02 00:03:21.575942 UTC | MeanKL                        0.0622271
+2017-06-02 00:03:21.576014 UTC | dLoss                         0.0288761
+2017-06-02 00:03:21.576083 UTC | -----------------------  ----------------
+2017-06-02 00:03:23.249857 UTC | [gail_exp] itr #8 | fitting baseline...
+2017-06-02 00:03:23.290211 UTC | [gail_exp] itr #8 | fitted
+2017-06-02 00:03:23.607650 UTC | [gail_exp] itr #8 | computing loss before
+2017-06-02 00:03:23.755872 UTC | [gail_exp] itr #8 | performing update
+2017-06-02 00:03:23.756106 UTC | [gail_exp] itr #8 | computing descent direction
+2017-06-02 00:03:28.721628 UTC | [gail_exp] itr #8 | descent direction computed
+2017-06-02 00:03:28.884727 UTC | [gail_exp] itr #8 | backtrack iters: 0
+2017-06-02 00:03:28.885031 UTC | [gail_exp] itr #8 | computing loss after
+2017-06-02 00:03:28.885158 UTC | [gail_exp] itr #8 | optimization finished
+2017-06-02 00:03:29.181037 UTC | [gail_exp] itr #8 | saving snapshot...
+2017-06-02 00:03:29.259824 UTC | [gail_exp] itr #8 | saved
+2017-06-02 00:03:29.260925 UTC | -----------------------  ----------------
+2017-06-02 00:03:29.261079 UTC | Iteration                     8
+2017-06-02 00:03:29.261211 UTC | AverageDiscountedReturn   -7035.91
+2017-06-02 00:03:29.261346 UTC | AverageReturn             -7178.75
+2017-06-02 00:03:29.261455 UTC | ExplainedVariance            -0.000492667
+2017-06-02 00:03:29.261575 UTC | NumTrajs                   1334
+2017-06-02 00:03:29.261705 UTC | Entropy                       2.07976
+2017-06-02 00:03:29.261825 UTC | Perplexity                    8.00257
+2017-06-02 00:03:29.261955 UTC | StdReturn                  5202.1
+2017-06-02 00:03:29.262057 UTC | MaxReturn                    -0.249976
+2017-06-02 00:03:29.262171 UTC | MinReturn                -11729.9
+2017-06-02 00:03:29.262256 UTC | AveragePolicyStd              0.729546
+2017-06-02 00:03:29.262367 UTC | LossBefore                   -5.14886e-17
+2017-06-02 00:03:29.262472 UTC | LossAfter                    -0.0720695
+2017-06-02 00:03:29.262547 UTC | MeanKLBefore                  0
+2017-06-02 00:03:29.262616 UTC | MeanKL                        0.0814033
+2017-06-02 00:03:29.262688 UTC | dLoss                         0.0720695
+2017-06-02 00:03:29.262773 UTC | -----------------------  ----------------
+2017-06-02 00:03:30.935791 UTC | [gail_exp] itr #9 | fitting baseline...
+2017-06-02 00:03:30.977924 UTC | [gail_exp] itr #9 | fitted
+2017-06-02 00:03:31.293055 UTC | [gail_exp] itr #9 | computing loss before
+2017-06-02 00:03:31.454495 UTC | [gail_exp] itr #9 | performing update
+2017-06-02 00:03:31.454799 UTC | [gail_exp] itr #9 | computing descent direction
+2017-06-02 00:03:36.509693 UTC | [gail_exp] itr #9 | descent direction computed
+2017-06-02 00:03:36.817963 UTC | [gail_exp] itr #9 | backtrack iters: 1
+2017-06-02 00:03:36.818217 UTC | [gail_exp] itr #9 | computing loss after
+2017-06-02 00:03:36.818328 UTC | [gail_exp] itr #9 | optimization finished
+2017-06-02 00:03:37.104065 UTC | [gail_exp] itr #9 | saving snapshot...
+2017-06-02 00:03:37.177308 UTC | [gail_exp] itr #9 | saved
+2017-06-02 00:03:37.178213 UTC | -----------------------  ----------------
+2017-06-02 00:03:37.178326 UTC | Iteration                     9
+2017-06-02 00:03:37.178407 UTC | AverageDiscountedReturn   -5623.8
+2017-06-02 00:03:37.178510 UTC | AverageReturn             -5737.97
+2017-06-02 00:03:37.178583 UTC | ExplainedVariance             0.00658534
+2017-06-02 00:03:37.178675 UTC | NumTrajs                   1334
+2017-06-02 00:03:37.178742 UTC | Entropy                       1.87908
+2017-06-02 00:03:37.178807 UTC | Perplexity                    6.5475
+2017-06-02 00:03:37.178872 UTC | StdReturn                  5446.11
+2017-06-02 00:03:37.178985 UTC | MaxReturn                    -0.253239
+2017-06-02 00:03:37.179053 UTC | MinReturn                -11660.1
+2017-06-02 00:03:37.179119 UTC | AveragePolicyStd              0.6885
+2017-06-02 00:03:37.179184 UTC | LossBefore                   -3.07378e-17
+2017-06-02 00:03:37.179248 UTC | LossAfter                    -0.0777789
+2017-06-02 00:03:37.179312 UTC | MeanKLBefore                  0
+2017-06-02 00:03:37.179389 UTC | MeanKL                        0.093328
+2017-06-02 00:03:37.179467 UTC | dLoss                         0.0777789
+2017-06-02 00:03:37.179534 UTC | -----------------------  ----------------
