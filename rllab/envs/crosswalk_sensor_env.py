@@ -91,9 +91,9 @@ class CrosswalkSensorEnv(Env):
         return np.sqrt(dist[0,0])
 
     def sensor_probability(self, action):
-        prob_a = np.array([0.99, 0.01])
-        prob_b = np.array([0.99, 0.01])
-        prob_c = np.array([0.99, 0.01])
+        prob_a = np.array([0.9999, 0.0001])
+        prob_b = np.array([0.9999, 0.0001])
+        prob_c = np.array([0.9999, 0.0001])
         total_prob = 1.0
         if action[0] < 0.5:
             total_prob *= prob_a[0]
