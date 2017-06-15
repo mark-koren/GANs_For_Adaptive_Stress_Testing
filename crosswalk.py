@@ -2,6 +2,7 @@ from rllab.algos.trpo import TRPO
 from rllab.baselines.linear_feature_baseline import LinearFeatureBaseline
 from rllab.baselines.zero_baseline import ZeroBaseline
 from rllab.envs.crosswalk_env import CrosswalkEnv
+from rllab.envs.crosswalk_sensor_env import CrosswalkSensorEnv
 from rllab.envs.normalized_env import normalize
 from rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
 import rllab.misc.logger as logger
@@ -17,7 +18,7 @@ parser.add_argument('--text_log_file', type=str, default='tex.txt')
 parser.add_argument('--params_log_file', type=str, default='args.txt')
 parser.add_argument('--snapshot_mode', type=str, default='all')
 parser.add_argument('--log_tabular_only', type=bool, default=False)
-parser.add_argument('--log_dir', type=str, default='./rl_logs/run6')
+parser.add_argument('--log_dir', type=str, default='./rl_logs/sensor1')
 parser.add_argument('--args_data', type=str, default=None)
 
 args = parser.parse_args()
@@ -38,7 +39,7 @@ logger.set_snapshot_mode(args.snapshot_mode)
 logger.set_log_tabular_only(args.log_tabular_only)
 logger.push_prefix("[%s] " % args.exp_name)
 
-env = normalize(CrosswalkEnv())
+env = normalize(CrosswalkSensorEnv())
 policy = GaussianMLPPolicy(env_spec=env.spec,
                            hidden_sizes=(512, 256, 128, 64, 32))
 baseline = LinearFeatureBaseline(env_spec=env.spec)
@@ -54,5 +55,5 @@ algo = TRPO(
 )
 algo.train()
 
-header = 'trial, step, v, x_car, y_car, x_ped, y_ped, del_x, del_y, reward, v_new, x_car_new, y_car_new, x_ped_new, y_ped_new'
+header = 'trial, step, v, x_car, y_car, x_ped, y_ped, del_x, del_y, sensor_A, sensor_B, sensor_C, reward, v_new, x_car_new, y_car_new, x_ped_new, y_ped_new'
 save_trials(iters, args.log_dir, header)

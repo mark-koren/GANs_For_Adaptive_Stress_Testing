@@ -32,6 +32,10 @@ class DataDistribution(object):
         y_samples.sort()
         return x_samples, y_samples
 
+def pertubate_batch(batch, C):
+    return batch + C * np.std(batch, axis=0) * np.random.random(batch.shape)
+
+
 
 class GeneratorDistribution(object):
     def __init__(self, low, high):
@@ -149,8 +153,8 @@ def optimizer(loss, var_list, initial_learning_rate):
 
 class GAN(object):
     def __init__(self, data, gen, num_steps, batch_size, minibatch, log_every, image_every,
-                 anim_path, balance = 0.25, writer_path = './GAIL/run_playground1', learning_rate = 50.3e-4,
-                 sample_size = 100):
+                 anim_path, balance = 0.25, writer_path = './GAIL/DRAGAN1', learning_rate = 50.3e-4,
+                 sample_size = 100, C=0.1):
         self.data = data
         self.gen = gen
         self.num_steps = num_steps
@@ -166,12 +170,14 @@ class GAN(object):
         self.writer_path = writer_path
         self.sample_size = sample_size
         self.balance = balance
+        self.C = C
         # self.learning_rate = learning_rate
         self.filename = "LR"+str(learning_rate) + \
                         "_NS" + str(self.num_steps) + \
                         "_BS" + str(self.batch_size) +  \
                         "_HS" + str(self.mlp_hidden_size) + \
-                        "_SS" + str(self.sample_size)
+                        "_SS" + str(self.sample_size) + \
+                        "_C" + str(self.C)
 
 
         # can use a higher learning rate when not using the minibatch layer
@@ -222,12 +228,29 @@ class GAN(object):
         # as you cannot use the same network with different inputs in TensorFlow.
         with tf.variable_scope('Disc') as scope:
             self.x = tf.placeholder(tf.float32, shape=(self.batch_size*self.sample_size, 2))
+            #X = tf.placeholder(tf.float32, shape=[None, X_dim])
+            self.x_p = tf.placeholder(tf.float32, shape=(self.batch_size*self.sample_size, 2))
             self.z_expanded = tf.placeholder(tf.float32, shape=(self.batch_size * self.sample_size, 3))
             self.D1, self.D1_logits = discriminator(tf.concat([self.x, self.z_expanded],1), self.mlp_hidden_size, self.minibatch)
             scope.reuse_variables()
             self.sample = sample_policy(self.G, sample_size=self.sample_size, state=self.z_expanded)
             self.D2, self.D2_logits = discriminator(self.sample,
                                     self.mlp_hidden_size, self.minibatch)
+            # Gradient penalty
+            alpha = tf.random_uniform(
+                shape=[self.batch_size, 1],
+                minval=0.,
+                maxval=1.
+            )
+            self.lambd = 10
+            differences = self.x_p - self.x
+            interpolates = self.x + (alpha * differences)
+            # print (type(interpolates))
+            # pdb.set_trace()
+            self.D3, self.D3_logits = discriminator(tf.concat([interpolates, self.z_expanded],1), self.mlp_hidden_size)
+            gradients = tf.gradients(ys=self.D3, xs=[interpolates], name='interp_grad')[0]
+            slopes = tf.sqrt(tf.reduce_sum(tf.square(gradients), reduction_indices=[1]))
+            self.gradient_penalty = tf.reduce_mean((slopes - 1.) ** 2)
 
         # Define the loss for discriminator and generator networks (see the original
         # paper for details), and create optimizers for both
@@ -241,6 +264,8 @@ class GAN(object):
         # self.loss_g_g = tf.reduce_mean(self.balance * tf.log(1.0 + tf.abs(3.0-self.G)))
         self.loss_g = tf.reduce_mean(
             tf.nn.sigmoid_cross_entropy_with_logits(logits=self.D2_logits, labels=tf.ones_like(self.D2_logits)))
+
+        self.loss_d += self.lambd * self.gradient_penalty
 
         self.image_tensor = tf.placeholder(tf.float32, shape=[self.num_images, 550, 800, 4], name='image_tensor')
         with tf.name_scope('summaries'):
@@ -338,6 +363,7 @@ class GAN(object):
                 z_expanded = np.repeat(z, self.sample_size, axis=0)
                 loss_d, _, d_summary = session.run([self.loss_d, self.opt_d, self.d_summary], {
                     self.x: np.reshape(x, (self.batch_size*self.sample_size, 2)),
+                    self.x_p: pertubate_batch(np.reshape(x, (self.batch_size*self.sample_size, 2)), self.C),
                     self.z: np.reshape(z, (self.batch_size, 3)),
                     self.z_expanded: np.reshape(z_expanded, (self.batch_size*self.sample_size, 3)),
                     self.training: True
