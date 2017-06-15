@@ -94,7 +94,22 @@ class CrosswalkSensorEnv(Env):
         prob_a = np.array([0.95, 0.05])
         prob_b = np.array([0.95, 0.05])
         prob_c = np.array([0.95, 0.05])
-        total_prob = prob_a[np.rint(action[0])] * prob_b[np.rint(action[1])] * prob_c[np.rint(action[2])]
+        total_prob = 1.0
+        if action[0] < 0.5:
+            total_prob *= prob_a[0]
+        else:
+            total_prob *= prob_a[1]
+
+        if action[1] < 0.5:
+            total_prob *= prob_b[0]
+        else:
+            total_prob *= prob_b[1]
+
+        if action[2] < 0.5:
+            total_prob *= prob_c[0]
+        else:
+            total_prob *= prob_c[1]
+
         return total_prob
 
     def reset(self):
