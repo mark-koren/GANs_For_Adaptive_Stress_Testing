@@ -18,7 +18,7 @@ parser.add_argument('--text_log_file', type=str, default='tex.txt')
 parser.add_argument('--params_log_file', type=str, default='args.txt')
 parser.add_argument('--snapshot_mode', type=str, default='all')
 parser.add_argument('--log_tabular_only', type=bool, default=False)
-parser.add_argument('--log_dir', type=str, default='./rl_logs/sensor1')
+parser.add_argument('--log_dir', type=str, default='./rl_logs/sensor2')
 parser.add_argument('--args_data', type=str, default=None)
 
 args = parser.parse_args()
