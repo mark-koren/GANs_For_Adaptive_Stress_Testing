@@ -73,7 +73,7 @@ class CrosswalkSensorEnv(Env):
         self._state = np.array([v_new, x_c, y_c, x_p, y_p])
         self._step += 1
         observation = np.array([v_new, x_d_new, y_d_new])
-        return Step(observation=observation, reward=reward, done=done)
+        return Step(observation=observation, reward=reward, done=done, info={'cache':cache})
 
     def mahalanobis_d(self, action):
         #TODO get mean and covariance from G
